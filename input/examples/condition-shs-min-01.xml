@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition xmlns="http://hl7.org/fhir">
+    <id value="condition-shs-min-01"/>
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-mcv-1"/>
+    </meta>    
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="problem-list-item"/>
+            <display value="Problem List Item"/>
+        </coding>
+    </category>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="44054006"/>
+            <display value="Type 2 diabetes mellitus"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/mhr-tjakamarra-billy"/>
+        <identifier>
+            <type>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                    <code value="NI"/>
+                    <display value="National unique individual identifier"/>
+                </coding>
+                <text value="IHI"/>
+            </type>
+            <system value="http://ns.electronichealth.net.au/id/hi/ihi/1.0"/>
+            <value value="8003608833564735"/>
+        </identifier>
+    </subject>
+    <recordedDate value="2015-02-25T11:59:54+10:00"/>
+</Condition>
