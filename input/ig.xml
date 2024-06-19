@@ -34,8 +34,18 @@
     <definition>
         <resource>
             <reference>
+                <reference value="ConceptMap/AS5017-2006-HCC-Identifier-Sex-to-FHIR-administrative-gender"/>
+            </reference>
+            <name value="Concept map of AS 5017-2006 Health Care Client Identifier Sex to FHIR administrative-gender"/>
+            <description value="Concept map for the gender value set used in the Agency CDA IG's to the gender value set used in FHIR Patient"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="StructureDefinition/dh-patient-mcv-1"/>
             </reference>
+            <name value="MCV Patient"/>
+            <description value="MCV FHIR Patient profile to accommodate the Agency CDA IG's Patient data for the Medical Conditions View"/>
             <exampleBoolean value="false"/>
         </resource>
         <!-- EXAMPLES-->
