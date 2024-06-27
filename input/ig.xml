@@ -70,7 +70,17 @@
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="profiles.html"/>
+                <nameUrl value="MHRGatewayAPI.html"/>
+                <title value="MHR Gateway API"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="conformance.html"/>
+                <title value="Conformance"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="artefacts.html"/>
                 <title value="Artefacts"/>
                 <generation value="markdown"/>
             </page>
