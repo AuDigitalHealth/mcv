@@ -29,8 +29,7 @@
             <path value="Procedure"/>
             <short value="A procedure in the context of electronic exchange of health information for the Medical COnditions View"/>
         </element>
-        <element id="Procedure.id">
-            <path value="Procedure.id"/>
+        <element id="Procedure.id">    
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
                 <extension url="code">
                     <valueCode value="SHALL:populate-if-known"/>
@@ -59,22 +58,22 @@
                 </extension>
             </extension>
             <path value="Procedure.id"/>
+            <mustSupport value="true"/>
             <min value="1"/>
         </element>
-        <element id="Procedure.subject">
+        <element id="Procedure.subject">           
+            <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+                <extension url="code">
+                    <valueCode value="SHALL:handle"/>
+                </extension>
+                <extension url="actor">
+                    <valueCanonical
+                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+                </extension>
+            </extension>
             <path value="Procedure.subject"/>
-            <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-                <extension url="code">
-                    <valueCode value="SHALL:handle"/>
-                </extension>
-                <extension url="actor">
-                    <valueCanonical
-                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
-                </extension>
-            </extension>
         </element>
-        <element id="Procedure.status">
-            <path value="Procedure.status"/>
+        <element id="Procedure.status">          
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
                 <extension url="code">
                     <valueCode value="SHALL:handle"/>
@@ -84,13 +83,10 @@
                         value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
                 </extension>
             </extension>
+            <path value="Procedure.status"/>
         </element>
         <element id="Procedure.performedDateTime">
             <path value="Procedure.performedDateTime"/>
-            <min value="1"/>
-        </element>
-        <element id="Procedure.code">
-            <path value="Procedure.code"/>
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
                 <extension url="code">
                     <valueCode value="SHALL:handle"/>
@@ -100,9 +96,23 @@
                         value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
                 </extension>
             </extension>
+            <path value="Procedure.performedDateTime"/>
+            <mustSupport value="true"/>
+            <min value="1"/>
         </element>
-        <element id="Procedure.note.text">
-            <path value="Procedure.note.text"/>
+        <element id="Procedure.code">
+            <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+                <extension url="code">
+                    <valueCode value="SHALL:handle"/>
+                </extension>
+                <extension url="actor">
+                    <valueCanonical
+                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+                </extension>
+            </extension>
+            <path value="Procedure.code"/>
+        </element>
+        <element id="Procedure.note">    
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
                 <extension url="code">
                     <valueCode value="SHALL:populate-if-known"/>
@@ -130,7 +140,9 @@
                         value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
                 </extension>
             </extension>
-        </element>
+            <path value="Procedure.note"/>
+            <mustSupport value="true"/>
+        </element>      
     </differential>
 </StructureDefinition>
 
