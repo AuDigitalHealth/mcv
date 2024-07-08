@@ -32,14 +32,7 @@
         <version value="current"/>
     </dependsOn>
     <definition>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/dh-patient-mcv-1"/>
-            </reference>
-            <name value="Medical Conditions View Patient"/>
-            <description value="Medical Conditions View FHIR Patient profile to accommodate the Agency CDA IG's Patient data for the Medical Conditions View"/>
-            <exampleBoolean value="false"/>
-        </resource>
+        
         <!-- EXAMPLES-->
      
         <resource>
