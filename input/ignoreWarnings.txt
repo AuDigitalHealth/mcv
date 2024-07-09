@@ -13,4 +13,11 @@ The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-l
 
 # Terminology not available at HL7 tx server or in package dependency: attempt to resolve in StructureDefinition
 
+# Legacy constraint in R4 that has been removed in subsequent versions
+Constraint failed: con-3: 'Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item' (defined in http://hl7.org/fhir/StructureDefinition/Condition) (Best Practice Recommendation)
 
+# A category code does not need to be supplied in every instance of category
+No code provided, and a code should be provided from the value set 'Condition Category Codes' (http://hl7.org/fhir/ValueSet/condition-category|4.0.1)
+
+# Ticket raised to consider removal of this constraint https://jira.hl7.org/browse/FHIR-46165
+Constraint failed: au-core-cond-05: 'Clinical status shall be present if verification status is not entered-in-error' (defined in http://hl7.org.au/fhir/core/StructureDefinition/au-core-condition)
