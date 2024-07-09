@@ -26,23 +26,39 @@
     <packageId value="au.digitalhealth.r4.mhrgateway"/>
     <license value="Apache-2.0"/>
     <fhirVersion value="4.0.1"/>
-    <dependsOn id="aubaser4">
-        <uri value="http://hl7.org.au/fhir/ImplementationGuide/hl7.fhir.au.base"/>
-        <packageId value="hl7.fhir.au.base"/>
-        <version value="4.1.0"/>
+    <dependsOn id="aucore">
+        <uri value="http://hl7.org.au/fhir/core/ImplementationGuide/hl7.fhir.au.core"/>
+        <packageId value="hl7.fhir.au.core"/>
+        <version value="current"/>
     </dependsOn>
     <definition>
-
+        
         <!-- EXAMPLES-->
+     
         <resource>
             <reference>
-                <reference value="Procedure/wound-dressing-es-01"/>
+                <reference value="Patient/broadway-mike"/>
             </reference>
-            <name value="Dressing of wound"/>
-            <description value="Dressing of wound for Billy Tjakamarra - Nail wound of sole of foot encounter (2017)."/>
+            <name value="Mr Mike Broadway"/>
+            <description value="Mr Mike Broadway (indigenous status, IHI, telecom)"/>
+            <exampleBoolean value="true"/>
+        </resource>     
+        <resource>
+            <reference>
+                <reference value="Patient/lobster-larry"/>
+            </reference>
+            <name value="Larry Lobster"/>
+            <description value="Lobster Larry - (indigenous status, IHI, unknown DoB, address)"/>
             <exampleBoolean value="true"/>
         </resource>
-        
+        <resource>
+            <reference>
+                <reference value="Patient/zhu-lily"/>
+            </reference>
+            <name value="Ms Lily Zhu"/>
+            <description value="Ms Lily Zhu (IHI, MRN, No indigenous status, No telecom, No Fixed Address (NSW))"/>
+            <exampleBoolean value="true"/>
+        </resource>
         <!-- PAGE DEFINITIONS -->
 
         <page>
