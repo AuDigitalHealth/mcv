@@ -26,18 +26,13 @@
     <packageId value="au.digitalhealth.r4.medical-conditions-view"/>
     <license value="Apache-2.0"/>
     <fhirVersion value="4.0.1"/>
-    <!--<dependsOn id="aubaser4">
-        <uri value="http://hl7.org.au/fhir/ImplementationGuide/hl7.fhir.au.base"/>
-        <packageId value="hl7.fhir.au.base"/>
-        <version value="4.1.0"/>
-    </dependsOn>-->
-    <dependsOn id="aucorer4">
+    <dependsOn id="aucore">
         <uri value="http://hl7.org.au/fhir/core/ImplementationGuide/hl7.fhir.au.core"/>
         <packageId value="hl7.fhir.au.core"/>
         <version value="current"/>
     </dependsOn>
     <definition>
-
+        
         <!-- EXAMPLES-->
         
         <resource>
@@ -56,8 +51,32 @@
             <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
             <exampleBoolean value="true"/>
         </resource>
-                
-        
+   
+        <resource>
+            <reference>
+                <reference value="Patient/broadway-mike"/>
+            </reference>
+            <name value="Mr Mike Broadway"/>
+            <description value="Mr Mike Broadway (indigenous status, IHI, telecom)"/>
+            <exampleBoolean value="true"/>
+        </resource>     
+        <resource>
+            <reference>
+                <reference value="Patient/lobster-larry"/>
+            </reference>
+            <name value="Larry Lobster"/>
+            <description value="Lobster Larry - (indigenous status, IHI, unknown DoB, address)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/zhu-lily"/>
+            </reference>
+            <name value="Ms Lily Zhu"/>
+            <description value="Ms Lily Zhu (IHI, MRN, No indigenous status, No telecom, No Fixed Address (NSW))"/>
+            <exampleBoolean value="true"/>
+        </resource>
+
         <!-- PAGE DEFINITIONS -->
 
         <page>
