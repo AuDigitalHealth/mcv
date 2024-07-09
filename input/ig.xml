@@ -23,7 +23,7 @@
         </coding>
     </jurisdiction>
     <copyright value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
-    <packageId value="au.digitalhealth.r4.mhrgateway"/>
+    <packageId value="au.digitalhealth.r4.medical-conditions-view"/>
     <license value="Apache-2.0"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn id="aucore">
@@ -32,26 +32,51 @@
         <version value="current"/>
     </dependsOn>
     <definition>
-              
-    <resource>
-        <reference>
-            <reference value="StructureDefinition/dh-procedure-mcv-1"/>
-        </reference>
-        <name value="Medical Conditions View Procedure"/>
-        <description value="Medical Conditions View FHIR Procedure profile to accommodate the Agency CDA IG's Patient data for the Medical Conditions View"/>
-        <exampleBoolean value="false"/>
-    </resource>
-
+        
         <!-- EXAMPLES-->
+        
         <resource>
             <reference>
-                <reference value="Procedure/wound-dressing-es-01"/>
+                <reference value="Condition/condition-shs-min-01"/>
             </reference>
-            <name value="Dressing of wound"/>
-            <description value="Dressing of wound for Billy Tjakamarra - Nail wound of sole of foot encounter (2017)."/>
+            <name value="Condition (SHS)"/>
+            <description value="A minimal example of a Condition resource containing information from a Shared Health Summary"/>
             <exampleBoolean value="true"/>
         </resource>
-        
+        <resource>
+            <reference>
+                <reference value="Condition/condition-eds-max-01"/>
+            </reference>
+            <name value="Condition (EDS)"/>
+            <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
+            <exampleBoolean value="true"/>
+        </resource>
+   
+        <resource>
+            <reference>
+                <reference value="Patient/broadway-mike"/>
+            </reference>
+            <name value="Mr Mike Broadway"/>
+            <description value="Mr Mike Broadway (indigenous status, IHI, telecom)"/>
+            <exampleBoolean value="true"/>
+        </resource>     
+        <resource>
+            <reference>
+                <reference value="Patient/lobster-larry"/>
+            </reference>
+            <name value="Larry Lobster"/>
+            <description value="Lobster Larry - (indigenous status, IHI, unknown DoB, address)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/zhu-lily"/>
+            </reference>
+            <name value="Ms Lily Zhu"/>
+            <description value="Ms Lily Zhu (IHI, MRN, No indigenous status, No telecom, No Fixed Address (NSW))"/>
+            <exampleBoolean value="true"/>
+        </resource>
+
         <!-- PAGE DEFINITIONS -->
 
         <page>
@@ -64,7 +89,17 @@
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="profiles.html"/>
+                <nameUrl value="MHRGatewayAPI.html"/>
+                <title value="MHR Gateway API"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="conformance.html"/>
+                <title value="Conformance"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="artefacts.html"/>
                 <title value="Artefacts"/>
                 <generation value="markdown"/>
             </page>
