@@ -54,12 +54,40 @@
                 </extension>
                 <extension url="actor">
                     <valueCanonical
-                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+                        value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
                 </extension>
             </extension>
             <path value="Procedure.id"/>
             <mustSupport value="true"/>
             <min value="1"/>
+        </element>      
+        <element id="Procedure.status">          
+            <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+                <extension url="code">
+                    <valueCode value="SHALL:handle"/>
+                </extension>
+                <extension url="actor">
+                    <valueCanonical
+                        value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+                </extension>
+            </extension>
+            <path value="Procedure.status"/>
+        </element>
+        <element id="Procedure.code">
+            <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+                <extension url="code">
+                    <valueCode value="SHALL:handle"/>
+                </extension>
+                <extension url="actor">
+                    <valueCanonical
+                        value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+                </extension>
+            </extension>
+            <path value="Procedure.code"/>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="https://healthterminologies.gov.au/fhir/ValueSet/procedure-1"/>
+            </binding>
         </element>
         <element id="Procedure.subject">           
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
@@ -68,22 +96,15 @@
                 </extension>
                 <extension url="actor">
                     <valueCanonical
-                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+                        value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
                 </extension>
             </extension>
             <path value="Procedure.subject"/>
-        </element>
-        <element id="Procedure.status">          
-            <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-                <extension url="code">
-                    <valueCode value="SHALL:handle"/>
-                </extension>
-                <extension url="actor">
-                    <valueCanonical
-                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
-                </extension>
-            </extension>
-            <path value="Procedure.status"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile
+                    value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mcv-1"/>
+            </type>
         </element>
         <element id="Procedure.performedDateTime">
             <path value="Procedure.performedDateTime"/>
@@ -93,24 +114,12 @@
                 </extension>
                 <extension url="actor">
                     <valueCanonical
-                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+                        value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
                 </extension>
             </extension>
             <path value="Procedure.performedDateTime"/>
             <mustSupport value="true"/>
             <min value="1"/>
-        </element>
-        <element id="Procedure.code">
-            <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-                <extension url="code">
-                    <valueCode value="SHALL:handle"/>
-                </extension>
-                <extension url="actor">
-                    <valueCanonical
-                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
-                </extension>
-            </extension>
-            <path value="Procedure.code"/>
         </element>
         <element id="Procedure.note">    
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
@@ -137,7 +146,7 @@
                 </extension>
                 <extension url="actor">
                     <valueCanonical
-                        value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+                        value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
                 </extension>
             </extension>
             <path value="Procedure.note"/>

@@ -76,6 +76,15 @@
             <description value="Ms Lily Zhu (IHI, MRN, No indigenous status, No telecom, No Fixed Address (NSW))"/>
             <exampleBoolean value="true"/>
         </resource>
+        
+        <resource>
+            <reference>
+                <reference value="Procedure/cholecystectomy-mcv-01"/>
+            </reference>
+            <name value="A cholecystectomy procedure"/>
+            <description value="A cholecystectomy ...."/>
+            <exampleBoolean value="true"/>
+        </resource>
 
         <!-- PAGE DEFINITIONS -->
 
