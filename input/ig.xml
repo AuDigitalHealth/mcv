@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-    <id value="au.digitalhealth.r4.medical-conditions-view"/>
-    <url value="http://ns.electronichealth.net.au/fhir/ImplementationGuide/au.digitalhealth.r4.medical-conditions-view"/>
+    <id value="au.digitalhealth.r4.mhr-fhir-gw"/>
+    <url value="http://ns.electronichealth.net.au/fhir/ImplementationGuide/au.digitalhealth.r4.mhr-fhir-gw"/>
     <version value="0.0.1"/>
-    <name value="MedicalConditionsViewFHIR"/>
-    <title value="Medical Conditions View FHIR Implementation Guide"/>
+    <name value="MHRGatewayFHIR"/>
+    <title value="My Health Record FHIR Gateway Conformance Artefacts"/>
     <status value="draft"/>
     <experimental value="false"/>
     <publisher value="Australian Digital Health Agency"/>
@@ -15,7 +15,7 @@
             <value value="mailto:help@digitalhealth.gov.au"/>
         </telecom>
     </contact>
-    <description value="TBD"/>
+    <description value="This guide supplements the My Health Record FHIR Gateway technical specifications that support developers connect apps and other products to the My Health Record system."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -23,7 +23,7 @@
         </coding>
     </jurisdiction>
     <copyright value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
-    <packageId value="au.digitalhealth.r4.mhrgateway"/>
+    <packageId value="au.digitalhealth.r4.mhr-fhir-gw"/>
     <license value="Apache-2.0"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn id="aucore">
@@ -34,7 +34,24 @@
     <definition>
         
         <!-- EXAMPLES-->
-     
+        
+        <resource>
+            <reference>
+                <reference value="Condition/condition-shs-min-01"/>
+            </reference>
+            <name value="Condition (SHS)"/>
+            <description value="A minimal example of a Condition resource containing information from a Shared Health Summary"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/condition-eds-max-01"/>
+            </reference>
+            <name value="Condition (EDS)"/>
+            <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
+            <exampleBoolean value="true"/>
+        </resource>
+   
         <resource>
             <reference>
                 <reference value="Patient/broadway-mike"/>
@@ -59,6 +76,7 @@
             <description value="Ms Lily Zhu (IHI, MRN, No indigenous status, No telecom, No Fixed Address (NSW))"/>
             <exampleBoolean value="true"/>
         </resource>
+
         <!-- PAGE DEFINITIONS -->
 
         <page>
@@ -71,7 +89,17 @@
                 <generation value="markdown"/>
             </page>
             <page>
-                <nameUrl value="profiles.html"/>
+                <nameUrl value="MHRGatewayAPI.html"/>
+                <title value="MHR Gateway API"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="conformance.html"/>
+                <title value="Conformance"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="artefacts.html"/>
                 <title value="Artefacts"/>
                 <generation value="markdown"/>
             </page>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActorDefinition xmlns="http://hl7.org/fhir">
+  <id value="mhr-gw-actor-requester"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+  <name value="MHRGWRequester"/>
+  <title value="MHR Gateway Requester"/>
+  <status value="draft"/>
+  <description
+    value="The MHR Gateway Requester is a system that creates and initiates a data access request to retrieve or update information using the MHR FHIR Gateway."/>
+  <type value="system"/>
+  <documentation value="An MHR Gateway Client, also known as MHR Gateway Requester:&#xa;&#xa;
+- **SHALL** correctly handle the meaning of elements flagged with the `handle` obligation code."/>
+</ActorDefinition>
