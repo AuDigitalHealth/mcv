@@ -5,7 +5,7 @@
   <version value="1.0.2"/>
   <name value="ADHAPatientMatch"/>
   <title value="ADHA Patient Match"/>
-  <status value="active"/>
+  <status value="draft"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
   <contact>
