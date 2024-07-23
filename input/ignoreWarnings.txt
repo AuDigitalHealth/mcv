@@ -1,17 +1,8 @@
 == Suppressed Messages ==
 
-# The following code systems are external and not supported by terminology server
-
-# DataType profiles supporting a choice of open types (for downstream profiling)
-
-# Terminology not available at HL7 tx server or in package dependency: CodeSystem
-
-# Terminology not available at HL7 tx server or in package dependency: ValueSet
-The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/gender-identity-response-1 on element Patient.extension.value[x] could not be resolved
-The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/contact-relationship-type-3 on element Patient.contact.relationship could not be resolved
-The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/common-languages-australia-2 on element Patient.communication.language could not be resolved
-
-# Terminology not available at HL7 tx server or in package dependency: attempt to resolve in StructureDefinition
+# ===  These errors are pending an update to the IG publisher for resolution; currently, there is no timeline for their correction. They are related by R4 and R5 value sets having different values, but using an R4 values returns the same error. See https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/QA.20error.20with.20ActorDefinition.20in.20R4.20IG ====
+ERROR: ActorDefinition/au-core-actor-requester: ActorDefinition.type: The value provided ('system') was not found in the value set 'Example Scenario Actor Type' (http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'system' in the ValueSet 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0'; The provided code '#system' was not found in the value set 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0')
+ERROR: ActorDefinition/au-core-actor-responder: ActorDefinition.type: The value provided ('system') was not found in the value set 'Example Scenario Actor Type' (http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'system' in the ValueSet 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0'; The provided code '#system' was not found in the value set 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0')
 
 # Legacy constraint in R4 that has been removed in subsequent versions
 Constraint failed: con-3: 'Condition.clinicalStatus SHALL be present if verificationStatus is not entered-in-error and category is problem-list-item' (defined in http://hl7.org/fhir/StructureDefinition/Condition) (Best Practice Recommendation)
