@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActorDefinition xmlns="http://hl7.org/fhir">
+  <id value="mhr-gw-actor-responder"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-responder"/>
+  <name value="MHRGWResponder"/>
+  <title value="MHR Gateway Responder"/>
+  <status value="draft"/>
+  <description
+    value="The MHR Gateway Responder is a system responsible for providing responses to queries submitted by MHR Gateway Requesters."/>
+  <type value="system"/>
+  <documentation value="A MHR Gateway Responder:&#xa;&#xa;
+- TBD."/>
+  <capabilities value="TBD"/>
+</ActorDefinition>

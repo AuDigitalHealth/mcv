@@ -7,10 +7,10 @@
   <url value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
   <name value="MHRGWRequester"/>
   <title value="MHR Gateway Requester"/>
-  <status value="active"/>
+  <status value="draft"/>
   <description
-    value="The MHR Gateway Requester is a system that creates and initiates a data access request to retrieve information using the MHR FHIR Gateway."/>
+    value="The MHR Gateway Requester is a system that creates and initiates a data access request to retrieve or update information using the MHR FHIR Gateway."/>
   <type value="system"/>
   <documentation value="An MHR Gateway Client, also known as MHR Gateway Requester:&#xa;&#xa;
-- **SHALL** handle information in elements flagged with *Must Support*."/>
+- **SHALL** correctly handle the meaning of elements flagged with the `handle` obligation code."/>
 </ActorDefinition>

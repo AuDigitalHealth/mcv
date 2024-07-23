@@ -2,7 +2,7 @@
 <Patient xmlns="http://hl7.org/fhir">
     <id value="zhu-lily"/>
     <meta>
-        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mcv-1"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
     </meta>
     <text>
         <status value="generated"/>

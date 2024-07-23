@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-    <id value="au.digitalhealth.r4.medical-conditions-view"/>
-    <url value="http://ns.electronichealth.net.au/fhir/ImplementationGuide/au.digitalhealth.r4.medical-conditions-view"/>
+    <id value="au.digitalhealth.r4.mhr-fhir-gw"/>
+    <url value="http://ns.electronichealth.net.au/fhir/ImplementationGuide/au.digitalhealth.r4.mhr-fhir-gw"/>
     <version value="0.0.1"/>
-    <name value="MedicalConditionsViewFHIR"/>
-    <title value="Medical Conditions View FHIR Implementation Guide"/>
+    <name value="MHRGatewayFHIR"/>
+    <title value="My Health Record FHIR Gateway Conformance Artefacts"/>
     <status value="draft"/>
     <experimental value="false"/>
     <publisher value="Australian Digital Health Agency"/>
@@ -15,7 +15,7 @@
             <value value="mailto:help@digitalhealth.gov.au"/>
         </telecom>
     </contact>
-    <description value="TBD"/>
+    <description value="This guide supplements the My Health Record FHIR Gateway technical specifications that support developers connect apps and other products to the My Health Record system."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -23,7 +23,7 @@
         </coding>
     </jurisdiction>
     <copyright value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
-    <packageId value="au.digitalhealth.r4.medical-conditions-view"/>
+    <packageId value="au.digitalhealth.r4.mhr-fhir-gw"/>
     <license value="Apache-2.0"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn id="aucore">
