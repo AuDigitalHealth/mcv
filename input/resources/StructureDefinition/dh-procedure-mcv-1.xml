@@ -72,6 +72,7 @@
                 </extension>
             </extension>
             <path value="Procedure.status"/>
+            <fixedCode value="completed"/>
         </element>
         <element id="Procedure.code">
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
