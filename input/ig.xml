@@ -37,6 +37,14 @@
         
         <resource>
             <reference>
+                <reference value="ExplanationOfBenefit/explanationofbenefit-mbs-01"/>
+            </reference>
+            <name value="Explanation of Benefit"/>
+            <description value="An explanation of benefit example...."/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Condition/condition-shs-min-01"/>
             </reference>
             <name value="Condition (SHS)"/>
