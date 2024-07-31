@@ -51,6 +51,15 @@
             <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
             <exampleBoolean value="true"/>
         </resource>
+        
+        <resource>
+            <reference>
+                <reference value="Observation/observation-evs-max-01"/>
+            </reference>
+            <name value="Condition (EVS)"/>
+            <description value="A maximal example of an Observation resource containing information from an Event Summary"/>
+            <exampleBoolean value="true"/>
+        </resource>
    
         <resource>
             <reference>
