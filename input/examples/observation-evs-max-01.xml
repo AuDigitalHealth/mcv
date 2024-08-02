@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="observation-evs-max-01"/>
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-mcv-1"/>
+    </meta>    
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1"/>
+            <code value="102.16627"/>
+            <display value="Uncategorised Medical History Item"/>
+        </coding>
+    </category>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="271801002"/>
+            <display value="Taste sense altered"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/broadway-mike"/>
+    </subject>
+    <effectiveDateTime value="2017-03-30"/>
+    <note>
+        <text
+            value="Patient reports a metallic taste sensation."/>
+    </note>
+</Observation>
