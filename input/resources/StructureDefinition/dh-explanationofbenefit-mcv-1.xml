@@ -92,17 +92,17 @@
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.type"/>
+      <patternCodeableConcept>
+        <coding>
+          <code value="institutional"/>
+          <display value="Institutional"/>   
+        </coding>
+      </patternCodeableConcept> 
       <mustSupport value="true"/>
       <binding>
         <strength value="required"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/claim-type"/>
       </binding>
-      <patternCodeableConcept>
-        <coding>
-          <fixedCode value="institutional"/> 
-          <display value="institutional"/>   
-        </coding>
-      </patternCodeableConcept>
     </element>
     <element id="ExplanationOfBenefit.subType">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
@@ -147,18 +147,18 @@
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.subType"/>
+      <patternCodeableConcept>
+        <coding>
+          <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-benefit-payment-category-1"/>
+          <code value="mbs"/>
+          <display value="MBS"/>
+        </coding>
+      </patternCodeableConcept>
       <mustSupport value="true"/>
       <binding>
         <strength value="required"/>
         <valueSet value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-benefit-payment-category-1"/>
       </binding>
-      <patternCodeableConcept>
-        <coding>
-          <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-benefit-payment-category-1"/>
-          <fixedCode value="mbs"/>
-          <display value="MBS"/>
-        </coding>
-      </patternCodeableConcept>
     </element>
     <element id="ExplanationOfBenefit.use">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
@@ -217,12 +217,12 @@
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.patient"/>
-      <mustSupport value="true"/>
       <type>
         <code value="Reference"/>
         <targetProfile
           value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
-      </type>
+      </type>      
+      <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.created">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
@@ -305,13 +305,13 @@
       </type>
       <mustSupport value="true"/>
     </element>
-    <!--<element id="ExplanationOfBenefit.priority">
+    <element id="ExplanationOfBenefit.priority">
       <path value="ExplanationOfBenefit.priority"/>
       <binding>
         <strength value="example"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/process-priority"/>
       </binding>
-    </element>-->
+    </element>
     <element id="ExplanationOfBenefit.outcome">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
@@ -338,7 +338,6 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <path value="ExplanationOfBenefit.outcome"/>
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:populate-if-known"/>
@@ -364,6 +363,7 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
+      <path value="ExplanationOfBenefit.outcome"/>      
       <fixedCode value="complete"/>
       <mustSupport value="true"/>
     </element>
@@ -403,10 +403,10 @@
       <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.insurance.coverage">
-      <path value="ExplanationOfBenefit.insurance.coverage"/>
-      <extension url="ttp://hl7.org/fhir/StructureDefinition/data-absent-reason">
-        <code value="unknown"/>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="unknown"/>
       </extension>
+      <path value="ExplanationOfBenefit.insurance.coverage"/>
     </element>
     <element id="ExplanationOfBenefit.item">
       <path value="ExplanationOfBenefit.item"/>
@@ -422,11 +422,6 @@
     <element id="ExplanationOfBenefit.item.category">
       <path value="ExplanationOfBenefit.item.category"/>
       <min value="1"/>
-      <mustSupport value="true"/>
-      <binding>
-        <strength value="extensible"/>
-        <valueSet value="https://healthterminologies.gov.au/fhir/ValueSet/australian-medicare-benefit-claim-category-1"/>
-      </binding>
       <patternCodeableConcept>
         <coding>
           <system value="https://healthterminologies.gov.au/fhir/ValueSet/australian-medicare-benefit-claim-category-1"/>
@@ -434,7 +429,12 @@
           <display value="MBS"/>
         </coding>
         <text value="Medicare Benefits Schedule"/>
-      </patternCodeableConcept>
+      </patternCodeableConcept>      
+      <mustSupport value="true"/>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="https://healthterminologies.gov.au/fhir/ValueSet/australian-medicare-benefit-claim-category-1"/>
+      </binding>
     </element>
     <element id="ExplanationOfBenefit.item.productOrService">
       <path value="ExplanationOfBenefit.item.productOrService"/>
