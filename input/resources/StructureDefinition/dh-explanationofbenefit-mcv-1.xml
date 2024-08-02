@@ -30,11 +30,6 @@
       <path value="ExplanationOfBenefit.id"/>
       <min value="1"/>
     </element>
-<!--    <element id="ExplanationOfBenefit.identifier">
-      <path value="ExplanationOfBenefit.identifier"/>
-      <min value="1"/>
-      <mustSupport value="true"/>
-    </element>-->
     <element id="ExplanationOfBenefit.status">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
@@ -62,7 +57,7 @@
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.status"/>
-      <fixedCode value="active"/>
+      <fixedCode value="active"/>  
       <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.type">
@@ -94,6 +89,7 @@
       <path value="ExplanationOfBenefit.type"/>
       <patternCodeableConcept>
         <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
           <code value="institutional"/>
           <display value="Institutional"/>   
         </coding>
@@ -424,7 +420,7 @@
       <min value="1"/>
       <patternCodeableConcept>
         <coding>
-          <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-medicare-benefit-claim-category-1"/>
+          <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-benefit-payment-category-1"/>
           <code value="mbs"/>
           <display value="MBS"/>
         </coding>

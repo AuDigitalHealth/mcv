@@ -34,7 +34,14 @@
     <definition>
         
         <!-- EXAMPLES-->
-        
+        <resource>
+            <reference>
+                <reference value="Organization/healthau"/>
+            </reference>
+            <name value="Australian Government Department of Health"/>
+            <description value="Australian Government Department of Health"/>
+            <exampleBoolean value="true"/>
+        </resource>
         <resource>
             <reference>
                 <reference value="ExplanationOfBenefit/explanationofbenefit-mbs-01"/>
