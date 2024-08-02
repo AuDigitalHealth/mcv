@@ -12,18 +12,20 @@
 	<type>
 		<coding>
 			<system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
-			<code value="professional"/>
+			<code value="institutional"/>
+			<display value="Institutional"/>
 		</coding>
 	</type>
 	<subType>
 		<coding>
 			<system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-benefit-payment-category-1"/>
 			<code value="mbs"/>
+			<display value="MBS"/>
 		</coding>
 	</subType>
 	<use value="claim"/>
 	<patient>
-		<reference value="Patient/mhr-field-sally"/>
+		<reference value="Patient/broadway-mike"/>
 		<identifier>
 			<type>
 				<coding>
@@ -89,7 +91,7 @@
 		<sequence value="1"/>
 		<category>
 			<coding>
-				<system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-benefit-payment-category-1"/>
+				<system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-medicare-benefit-claim-category-1"/>
 				<code value="mbs"/>
 				<display value="MBS"/>
 			</coding>

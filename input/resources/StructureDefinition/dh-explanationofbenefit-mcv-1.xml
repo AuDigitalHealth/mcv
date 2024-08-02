@@ -424,7 +424,7 @@
       <min value="1"/>
       <patternCodeableConcept>
         <coding>
-          <system value="https://healthterminologies.gov.au/fhir/ValueSet/australian-medicare-benefit-claim-category-1"/>
+          <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-medicare-benefit-claim-category-1"/>
           <code value="mbs"/>
           <display value="MBS"/>
         </coding>
