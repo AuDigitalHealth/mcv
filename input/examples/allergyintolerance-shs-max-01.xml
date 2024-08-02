@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <id value="sulfonamide-01"/>
+  <meta>
+    <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-allergyintolerance-mcv-1"/>
+  </meta>
+  <extension url="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-mhr-allergyintolerance-detailed-type-1">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="419076005"/>
+        <display value="Allergic reaction"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="763875007"/>
+      <display value="Sulfonamide-containing product"/>
+    </coding>
+    <text value="sulfonamide antibacterial"/>
+  </code>
+  <patient>
+    <reference value="Patient/broadway-mike"/>
+  </patient>
+  <reaction>
+    <manifestation>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="271807003"/>
+        <display value="Rash"/>
+      </coding>
+      <text value="skin rash"/>
+    </manifestation>
+  </reaction>
+</AllergyIntolerance>
