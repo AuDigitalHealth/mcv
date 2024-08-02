@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="dh-condition-mcv-1"/>
-  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-mcv-1"/>
-  <name value="DHConditionMCV"/>
-  <title value="MHR Medical Conditions View Condition"/>
+  <id value="dh-observation-mcv-1"/>
+  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-mcv-1"/>
+  <name value="DHObservationMCV"/>
+  <title value="MHR Medical Conditions View Observation"/>
   <status value="draft"/>
   <publisher value="Australian Digital Health Agency"/>
   <contact>
@@ -13,20 +13,20 @@
     </telecom>
   </contact>
   <description
-    value="The purpose of this profile is to support a consolidated view of medical conditions and past medical history contained in a patient's My Health Record. It is based on the [AU Core Condition](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-condition.html) profile and describes the data structures and obligations to be met when conforming to this profile."/>
+    value="The purpose of this profile is to support a consolidated view of medical conditions and past medical history contained in a patient's My Health Record, that cannot be categorised as Conditions or Procedures. It is a profile of the [Observation](https://hl7.org/fhir/R4/observation.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
   <copyright
     value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
   <kind value="resource"/>
   <abstract value="false"/>
-  <type value="Condition"/>
-  <baseDefinition value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-condition"/>
+  <type value="Observation"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Condition.id">
-      <path value="Condition.id"/>
+    <element id="Observation.id">
+      <path value="Observation.id"/>
       <min value="1"/>
     </element>
-    <element id="Condition.clinicalStatus">
+    <element id="Observation.status">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:handle"/>
@@ -36,9 +36,11 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <path value="Condition.clinicalStatus"/>
+      <path value="Observation.status"/>
+      <fixedCode value="final"/>
+      <mustSupport value="true"/>
     </element>
-    <element id="Condition.category">
+    <element id="Observation.category">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:handle"/>
@@ -48,9 +50,12 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <path value="Condition.category"/>
+      <path value="Observation.category"/>
+      <min value="1"/>
+      <max value="1"/>
+      <mustSupport value="true"/>
     </element>
-    <element id="Condition.code">
+    <element id="Observation.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:handle"/>
@@ -60,9 +65,10 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <path value="Condition.code"/>
+      <path value="Observation.code"/>
+      <mustSupport value="true"/>
     </element>
-    <element id="Condition.subject">
+    <element id="Observation.subject">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:handle"/>
@@ -72,59 +78,16 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <path value="Condition.subject"/>
+      <path value="Observation.subject"/>
+      <min value="1"/>
       <type>
         <code value="Reference"/>
         <targetProfile
           value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
-      </type>
-    </element>
-    <element id="Condition.onset[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:handle"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
-        </extension>
-      </extension>
-      <path value="Condition.onset[x]"/>
-      <short value="Estimated or actual date or date-time"/>
-      <type>
-        <code value="dateTime"/>
-      </type>
-    </element>
-    <element id="Condition.abatement[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:handle"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
-        </extension>
-      </extension>
-      <path value="Condition.abatement[x]"/>
-      <type>
-        <code value="dateTime"/>
-      </type>
-    </element>
-    <element id="Condition.recordedDate">
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:handle"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
-        </extension>
-      </extension>
-      <path value="Condition.recordedDate"/>
-      <min value="1"/>
+      </type>     
       <mustSupport value="true"/>
     </element>
-    <element id="Condition.note">
+    <element id="Observation.effective[x]">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:handle"/>
@@ -134,8 +97,25 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <path value="Condition.note"/>
+      <path value="Observation.effective[x]"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Observation.note">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Observation.note"/>
       <max value="1"/>
+      <mustSupport value="true"/>
     </element>
   </differential>
 </StructureDefinition>

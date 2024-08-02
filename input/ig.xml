@@ -51,6 +51,15 @@
             <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
             <exampleBoolean value="true"/>
         </resource>
+        
+        <resource>
+            <reference>
+                <reference value="Observation/observation-evs-max-01"/>
+            </reference>
+            <name value="Condition (EVS)"/>
+            <description value="A maximal example of an Observation resource containing information from an Event Summary"/>
+            <exampleBoolean value="true"/>
+        </resource>
    
         <resource>
             <reference>
@@ -74,6 +83,15 @@
             </reference>
             <name value="Ms Lily Zhu"/>
             <description value="Ms Lily Zhu (IHI, MRN, No indigenous status, No telecom, No Fixed Address (NSW))"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        
+        <resource>
+            <reference>
+                <reference value="Procedure/cholecystectomy-mcv-01"/>
+            </reference>
+            <name value="A cholecystectomy procedure"/>
+            <description value="A cholecystectomy ...."/>
             <exampleBoolean value="true"/>
         </resource>
 
