@@ -80,7 +80,6 @@
             </type>
         </element>
         <element id="Procedure.performedDateTime">
-            <path value="Procedure.performedDateTime"/>
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
                 <extension url="code">
                     <valueCode value="SHALL:handle"/>
@@ -90,9 +89,9 @@
                         value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
                 </extension>
             </extension>
-            <path value="Procedure.performedDateTime"/>
-            <mustSupport value="true"/>
+            <path value="Procedure.performedDateTime"/>            
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Procedure.note">    
             <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
@@ -127,4 +126,5 @@
         </element>      
     </differential>
 </StructureDefinition>
+
 
