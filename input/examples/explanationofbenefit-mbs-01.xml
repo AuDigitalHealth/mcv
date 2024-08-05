@@ -91,7 +91,7 @@
 		<sequence value="1"/>
 		<category>
 			<coding>
-				<system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-medicare-benefit-claim-category-1"/>
+				<system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-benefit-payment-category-1"/>
 				<code value="mbs"/>
 				<display value="MBS"/>
 			</coding>
