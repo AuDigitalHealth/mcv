@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="dh-flag-mcv-1"/>
+  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1"/>
+  <version value="1.0.0"/>
+  <name value="ADHAFlagMCV"/>
+  <title value="ADHA Medical Conditions View Flag"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="Australian Digital Health Agency"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="help@digitalhealth.gov.au"/>
+    </telecom>
+  </contact>
+  <description
+    value="The purpose of this profile is to provide a representation of a flag (e.g. warning or notification) for the Medical Conditions View for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia."/>
+  <copyright
+    value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Flag"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Flag"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Flag">
+      <path value="Flag"/>
+    </element>
+    <element id="Flag.id">
+      <path value="Flag.id"/>
+      <min value="1"/>
+    </element>
+    <element id="Flag.status">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:populate-if-known"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
+        </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:no-error"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+        </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Flag.status" />
+      <fixedCode value="active"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Flag.category">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:populate-if-known"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
+        </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:no-error"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+        </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Flag.category"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Flag.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:populate-if-known"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
+        </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:no-error"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+        </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Flag.code"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Flag.subject">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:populate-if-known"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
+        </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:no-error"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
+        </extension>
+      </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+          <extension url="code">
+            <valueCode value="SHALL:handle"/>
+          </extension>
+          <extension url="actor">
+            <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          </extension>
+        </extension>
+        <type>
+          <code value="Reference"/>
+          <targetProfile
+            value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
+        </type>
+      <path value="Flag.subject"/>
+      <mustSupport value="true"/>
+    </element>
+  </differential>
+</StructureDefinition>
