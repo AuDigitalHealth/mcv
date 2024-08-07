@@ -35,24 +35,6 @@
     <element id="Flag.status">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
-          <valueCode value="SHALL:populate-if-known"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
-        </extension>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:no-error"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
-        </extension>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
@@ -65,24 +47,6 @@
       <mustSupport value="true"/>
     </element>
     <element id="Flag.category">
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:populate-if-known"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
-        </extension>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:no-error"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
-        </extension>
-      </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:handle"/>
@@ -99,24 +63,6 @@
     <element id="Flag.code">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
-          <valueCode value="SHALL:populate-if-known"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
-        </extension>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:no-error"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
-        </extension>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
@@ -128,24 +74,6 @@
       <mustSupport value="true"/>
     </element>
     <element id="Flag.subject">
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:populate-if-known"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-responder"/>
-        </extension>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:no-error"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://hl7.org.au/fhir/core/ActorDefinition/au-core-actor-requester"/>
-        </extension>
-      </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
           <extension url="code">
             <valueCode value="SHALL:handle"/>
