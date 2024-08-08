@@ -154,6 +154,13 @@
       </type>
       <mustSupport value="true"/>
     </element>
+    <element id="ExplanationOfBenefit.priority">      
+      <path value="ExplanationOfBenefit.priority"/> 
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/process-priority"/>
+      </binding>
+    </element>
     <element id="ExplanationOfBenefit.outcome">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
