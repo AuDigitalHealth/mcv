@@ -38,17 +38,9 @@
 	<insurance>
 		<focal value="true"/>
 		<coverage>
-			<identifier>
-				<type>
-					<coding>
-						<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-						<code value="MC"/>
-					</coding>
-					<text value="Medicare Number"/>
-				</type>
-				<system value="http://ns.electronichealth.net.au/id/medicare-number"/>
-				<value value="3951032981"/>
-			</identifier>
+			<extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+				<valueCode value="unknown"/>
+			</extension>
 		</coverage>
 	</insurance>
 	<item>

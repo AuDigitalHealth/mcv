@@ -162,25 +162,18 @@
       </binding>
     </element>
     <element id="ExplanationOfBenefit.outcome">
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:handle"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
-        </extension>
-      </extension>
       <path value="ExplanationOfBenefit.outcome"/>      
       <fixedCode value="complete"/>
-      <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.insurance">
       <path value="ExplanationOfBenefit.insurance"/>
       <max value="1"/>
-      <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.insurance.focal">
+      <path value="ExplanationOfBenefit.insurance.focal"/>
+      <fixedBoolean value="true"/>
+    </element>
+    <element id="ExplanationOfBenefit.insurance.coverage.extension:dataAbsentReason">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
           <valueCode value="SHALL:handle"/>
@@ -190,29 +183,51 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <path value="ExplanationOfBenefit.insurance.focal"/>
-      <fixedBoolean value="true"/>
-      <mustSupport value="true"/>
+      <path value="ExplanationOfBenefit.insurance.coverage.extension"/>
+      <sliceName value="dataAbsentReason"/>
+      <type>
+        <code value="Extension"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/data-absent-reason"/>
+      </type>
     </element>
-    <element id="ExplanationOfBenefit.insurance.coverage">
-      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
-        <valueCode value="unknown"/>
-      </extension>
-      <path value="ExplanationOfBenefit.insurance.coverage"/>
-    </element>
-    <element id="ExplanationOfBenefit.item">
-      <path value="ExplanationOfBenefit.item"/>
-      <min value="1"/>
-      <max value="1"/>
-      <mustSupport value="true"/>
+    <element id="ExplanationOfBenefit.insurance.coverage.extension:dataAbsentReason.valueCode">
+      <path value="ExplanationOfBenefit.insurance.coverage.extension.valueCode"/>
+      <fixedCode value="unknown"/>
     </element>
     <element id="ExplanationOfBenefit.item.sequence">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
       <path value="ExplanationOfBenefit.item.sequence"/>
       <fixedPositiveInt value="1"/>
       <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.item.category">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
       <path value="ExplanationOfBenefit.item.category"/>
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
       <min value="1"/>
       <patternCodeableConcept>
         <coding>
@@ -229,6 +244,15 @@
       </binding>
     </element>
     <element id="ExplanationOfBenefit.item.productOrService">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
       <path value="ExplanationOfBenefit.item.productOrService"/>
       <short value="MBS Billing code"/>
       <definition value="The billing code the service was claimed with against the Australian Department of Health Modifications of MBS Item and DVA Fee Schedule Item (urn:oid:1.2.36.1.2001.1005.21)."/>
@@ -240,12 +264,47 @@
       </patternCodeableConcept>
       <mustSupport value="true"/>
     </element>
+    <element id="ExplanationOfBenefit.item.productOrService.coding.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="ExplanationOfBenefit.item.productOrService.coding.code"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
+    </element>
     <element id="ExplanationOfBenefit.item.serviced[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <type>
+        <code value="date" />
+      </type>
       <path value="ExplanationOfBenefit.item.serviced[x]"/>
       <min value="1"/>
       <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.item.location[x]">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical
+            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
       <path value="ExplanationOfBenefit.item.location[x]"/>
       <short value="Service in-hospital indicator"/>
       <definition value="When instantiated this element indicates the service was provided in a hospital"/>
