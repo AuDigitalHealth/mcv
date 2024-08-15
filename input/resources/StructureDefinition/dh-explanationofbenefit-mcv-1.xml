@@ -36,8 +36,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.status"/>
@@ -50,8 +49,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.type"/>
@@ -74,8 +72,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>    
       <path value="ExplanationOfBenefit.subType"/>
@@ -98,8 +95,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.use"/>
@@ -112,15 +108,13 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.patient"/>
       <type>
         <code value="Reference"/>
-        <targetProfile
-          value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
       </type>      
       <mustSupport value="true"/>
     </element>
@@ -130,8 +124,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.created"/>
@@ -143,8 +136,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.provider"/>
@@ -179,8 +171,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.insurance.coverage.extension"/>
@@ -200,8 +191,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.item.sequence"/>
@@ -214,8 +204,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.item.category"/>
@@ -224,8 +213,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <min value="1"/>
@@ -249,19 +237,27 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.item.productOrService"/>
       <short value="MBS Billing code"/>
       <definition value="The billing code the service was claimed with against the Australian Department of Health Modifications of MBS Item and DVA Fee Schedule Item (urn:oid:1.2.36.1.2001.1005.21)."/>
       <comment value="The code as instantiated may be padded with leading zeros when compared with the original (as published by the Department of Health)."/>
-      <patternCodeableConcept>
-        <coding>
-          <system value="urn:oid:1.2.36.1.2001.1005.21"/>
-        </coding>
-      </patternCodeableConcept>
+      <mustSupport value="true"/>
+    </element>
+    <element id="ExplanationOfBenefit.item.productOrService.coding.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="ExplanationOfBenefit.item.productOrService.coding.system"/>
+      <fixedUri value="urn:oid:1.2.36.1.2001.1005.21"/>
+      <min value="1"/>
       <mustSupport value="true"/>
     </element>
     <element id="ExplanationOfBenefit.item.productOrService.coding.code">
@@ -270,8 +266,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.item.productOrService.coding.code"/>
@@ -284,8 +279,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <type>
@@ -301,8 +295,7 @@
           <valueCode value="SHALL:handle"/>
         </extension>
         <extension url="actor">
-          <valueCanonical
-            value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
       <path value="ExplanationOfBenefit.item.location[x]"/>
