@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="mackay-clinic"/>
+    <meta>
+        <profile value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-organization"/>
+    </meta>
+    <identifier>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="XX"/>
+            </coding>
+            <text value="ABN"/>
+        </type>
+        <system value="http://hl7.org.au/id/abn"/>
+        <value value="51824754455"/>
+    </identifier>
+    <name value="Mackay Family Medicine Clinic"/>
+    <telecom>
+        <system value="email"/>
+        <value value="reception@example.mfmc.com.au"/>
+        <use value="work"/>
+    </telecom>
+    <telecom>
+        <system value="fax"/>
+        <value value="(07) 8543 5552"/>
+        <use value="work"/>
+    </telecom>
+    <telecom>
+        <system value="phone"/>
+        <value value="(07) 8543 5559"/>
+        <use value="work"/>
+    </telecom>
+    <address>
+        <type value="postal"/>
+        <line value="LPO Box 789"/>
+        <city value="Mackay"/>
+        <state value="Qld"/>
+        <postalCode value="4740"/>
+        <country value="AU"/>
+    </address>
+</Organization>
