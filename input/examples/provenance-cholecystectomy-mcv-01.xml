@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Provenance xmlns="http://hl7.org/fhir">
+    <id value="provenance-cholecystectomy-mcv-01"/>
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-provenance-mcv-1"/>
+    </meta>
+    <target> 
+        <reference value="Procedure/cholecystectomy-mcv-01"/> 
+    </target> 
+    <occurredPeriod> 
+        <start value="2024-06-27"/> 
+        <end value="2024-06-28"/> 
+    </occurredPeriod> 
+    <recorded value="2024-06-27T08:39:24+10:00"/> 
+    <agent> 
+        <type> 
+            <coding> 
+                <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/> 
+                <code value="AUT"/> 
+            </coding> 
+        </type> 
+        <who> 
+            <reference value="Organization/adha"/> 
+        </who> 
+    </agent> 
+    <entity> 
+        <role value="source"/> 
+        <what> 
+            <reference value="DocumentReference/example"/>     
+            <display value="CDA Document in MHR"/> 
+        </what> 
+    </entity> 
+</Provenance> 

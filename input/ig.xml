@@ -89,6 +89,14 @@
         <!--ORGANIZATION EXAMPLES-->
         <resource>
             <reference>
+                <reference value="Organization/adha"/>
+            </reference>
+            <name value="Australian Digital Health Agency"/>
+            <description value="Australian Digital Health Agency"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="Organization/healthau"/>
             </reference>
             <name value="Australian Government Department of Health"/>
@@ -154,7 +162,17 @@
                 <reference value="Procedure/cholecystectomy-mcv-01"/>
             </reference>
             <name value="A cholecystectomy procedure"/>
-            <description value="A cholecystectomy ...."/>
+            <description value="A cholecystectomy procedure"/>
+            <exampleBoolean value="true"/>
+        </resource>
+
+        <!--PROVENANCE EXAMPLES-->
+        <resource>
+            <reference>
+                <reference value="Provenance/provenance-cholecystectomy-mcv-01"/>
+            </reference>
+            <name value="The provenance of a cholecystectomy procedure"/>
+            <description value="An example showing the provenance for a cholecystectomy procedure"/>
             <exampleBoolean value="true"/>
         </resource>
 
