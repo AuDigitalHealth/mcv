@@ -77,16 +77,17 @@
             <description value="Record of Claim against MBS for 30185 removal of plantar warts for Mr. Mike Broadway"/>
             <exampleBoolean value="true"/>
         </resource>
-        <!--OBSERVATION EXAMPLES-->
+        <!-- FLAG EXAMPLES-->       
         <resource>
             <reference>
                 <reference value="Flag/mcv-01"/>
             </reference>
             <name value="Australian Immunisation Register notice: Medical contraindication"/>
-            <description value="TBD"/>
+            <description value="Australian Immunisation Register notice: Medical contraindication"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1"/>
         </resource>
+        <!--OBSERVATION EXAMPLES-->
         <resource>
             <reference>
                 <reference value="Observation/observation-evs-max-01"/>
