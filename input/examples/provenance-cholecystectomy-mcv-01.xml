@@ -27,7 +27,7 @@
         <role value="source"/> 
         <what> 
             <reference value="DocumentReference/example"/>     
-            <display value="CDA Document in MHR"/> 
+            <display value="CDA Document in XDS repository"/> 
         </what> 
     </entity> 
 </Provenance> 

@@ -3,8 +3,8 @@
   <id value="dh-provenance-mcv-1"/>
   <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-provenance-mcv-1"/>
   <version value="1.0.0"/>
-  <name value="ADHAProvenanceMCV"/>
-  <title value="ADHA Medical Conditions View Provenance"/>
+  <name value="MHRProvenanceMCV"/>
+  <title value="MHR Medical Conditions View Provenance"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
@@ -150,9 +150,7 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
-      <type>
-        <display value="CDA Document in XDS repository"/>
-      </type>
+      <fixedString value="CDA Document in XDS repository"/>
       <path value="Provenance.entity.what.display"/>
       <mustSupport value="true"/>
     </element>
