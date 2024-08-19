@@ -166,14 +166,6 @@
       <fixedBoolean value="true"/>
     </element>
     <element id="ExplanationOfBenefit.insurance.coverage.extension:dataAbsentReason">
-      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
-        <extension url="code">
-          <valueCode value="SHALL:handle"/>
-        </extension>
-        <extension url="actor">
-          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
-        </extension>
-      </extension>
       <path value="ExplanationOfBenefit.insurance.coverage.extension"/>
       <sliceName value="dataAbsentReason"/>
       <type>
