@@ -5,7 +5,7 @@
     <version value="1.0.2"/>
     <name value="MHRProcedureMCV"/>
     <title value="MHR Medical Conditions View Procedure"/>
-    <status value="active"/>
+    <status value="draft"/>
     <experimental value="false"/>
     <publisher value="Australian Digital Health Agency"/>
     <contact>
