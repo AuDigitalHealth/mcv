@@ -51,6 +51,24 @@
             <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
             <exampleBoolean value="true"/>
         </resource>
+        <!--BUNDLE EXAMPLES-->
+        <resource>
+            <reference>
+                <reference value="Bundle/bundle-mcv-01"/>
+            </reference>
+            <name value="Medical Conditions View bundle"/>
+            <description value="An example of a bundle containing the Medical Conditions View"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <!--COMPOSITION EXAMPLES-->
+        <resource>
+            <reference>
+                <reference value="Composition/composition-mcv-01"/>
+            </reference>
+            <name value="Medical Conditions View document composition"/>
+            <description value="An example of a document composition describing the Medical Conditions View"/>
+            <exampleBoolean value="true"/>
+        </resource>
         <!--CONDITION EXAMPLES-->
         <resource>
             <reference>

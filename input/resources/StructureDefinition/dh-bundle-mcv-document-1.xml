@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="dh-bundle-mcv-document-1"/>
+  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bundle-mcv-document-1"/>
+  <name value="MCVBundleDocument"/>
+  <title value="MHR Medical Conditions View Document Bundle"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="Australian Digital Health Agency"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="help@digitalhealth.gov.au"/>
+    </telecom>
+  </contact>
+  <description
+    value="The purpose of this profile is to provide a collection of resources handled as a document to support a consolidated view of medical conditions and past medical history contained in a patient’s My Health Record."/>
+  <copyright
+    value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="Bundle"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Bundle">
+      <path value="Bundle"/>
+    </element>
+    <element id="Bundle.id">
+      <path value="Bundle.id"/>
+      <min value="1"/>
+    </element>
+    <element id="Bundle.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.type"/>
+      <fixedCode value="document"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.timestamp">
+      <path value="Bundle.timestamp"/>
+    </element>
+    <element id="Bundle.entry">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="resource"/>
+        </discriminator>
+        <rules value="open"/>
+      </slicing>
+      <min value="2"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry.fullUrl">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.fullUrl"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:composition">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="composition"/>
+      <min value="1"/>
+      <max value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:composition.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="Composition"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-composition-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:patient">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="patient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:patient.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="Patient"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:allergyIntolerance">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="allergyIntolerance"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:allergyIntolerance.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="AllergyIntolerance"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-allergyintolerance-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:condition">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="condition"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:condition.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="Condition"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:documentReference">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="documentReference"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:documentReference.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="DocumentReference"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-documentreference-mhr-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:explanationOfBenefit">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="explanationOfBenefit"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:explanationOfBenefit.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="ExplanationOfBenefit"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-explanationofbenefit-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:flag">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="flag"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:flag.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="Flag"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:observation">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="observation"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:observation.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="Observation"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:procedure">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="procedure"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:procedure.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="Procedure"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-procedure-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:provenance">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry"/>
+      <sliceName value="provenance"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="Bundle.entry:provenance.resource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
+        <extension url="code">
+          <valueCode value="SHALL:handle"/>
+        </extension>
+        <extension url="actor">
+          <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
+        </extension>
+      </extension>
+      <path value="Bundle.entry.resource"/>
+      <min value="1"/>
+      <type>
+        <code value="Provenance"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-provenance-mcv-1"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+  </differential>
+</StructureDefinition>

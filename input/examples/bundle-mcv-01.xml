@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+    <id value="bundle-mcv-01"/>
+    <meta>
+        <versionId value="20240130T1523517511100"/>
+        <lastUpdated value="2024-01-30T15:23:51.751+11:00"/>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bundle-mcv-document-1"/>
+    </meta>
+    <language value="en-AU"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:uuid:c09abd65-7e63-407d-939a-95bcabc393cf"/> <!-- randomly generated, for bundle -->
+    </identifier>
+    <type value="document"/>
+    <timestamp value="2023-08-12T10:30:00+10:00"/>
+    
+    <entry>
+        <fullUrl value="urn:uuid:b6286527-e740-4317-bc22-49996956c2a1"/> <!-- randomly generated, for composition -->
+        <resource>
+            <Composition>
+                <id value="b6286527-e740-4317-bc22-49996956c2a1"/>
+                <language value="en-AU"/>
+                <contained>
+                    <Device>
+                        <id value="9b1acd4f-3f31-4db3-8ab7-ef7fad6e37ec"/>
+                        <identifier>
+                            <type>
+                                <text value="PAI-D"/>
+                            </type>
+                            <system value="http://ns.electronichealth.net.au/id/pcehr/paid/1.0"/>
+                            <value value="8003640003000026"/>
+                        </identifier>
+                        <manufacturer value="My Health Record"/>
+                        <type>
+                            <text value="My Health Record"/>
+                        </type>
+                    </Device>
+                </contained>
+                <contained>
+                    <Organization>
+                        <id value="853f7c2d-4d58-4e06-aa12-21b47572815a"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="http://terminology.hl7.org.au/CodeSystem/v2-0203"/>
+                                    <code value="NOI"/>
+                                    <display value="National Organisation Identifier"/>
+                                </coding>
+                                <text value="PAI-O"/>
+                            </type>
+                            <system value="http://ns.electronichealth.net.au/id/pcehr/paio/1.0"/>
+                            <value value="8003640001000036"/>
+                        </identifier>
+                        <name value="My Health Record system operator"/>
+                    </Organization>
+                </contained>
+                <status value="final"/>
+                <type>
+                    <coding>
+                        <system value="https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1"/>
+                        <code value="100.32051"/>
+                        <display value="Medical Conditions View"/>
+                    </coding>
+                </type>
+                <category>
+                    <coding>
+                        <system value="https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1"/>
+                        <code value="100.32050"/>
+                        <display value="Patient Health Summary"/>
+                    </coding>
+                </category>
+                <subject>
+                    <reference value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/>
+                </subject>
+                <date value="2022-02-15T07:15:15+10:00"/>
+                <author>
+                    <reference value="#9b1acd4f-3f31-4db3-8ab7-ef7fad6e37ec"/>
+                </author>
+                <title value="Medical Conditions View"/>
+                <custodian>
+                    <reference value="#853f7c2d-4d58-4e06-aa12-21b47572815a"/>
+                </custodian>
+                <section>
+                    <title value="Allergies and Adverse Reactions"/>
+                    <code>
+                        <coding>
+                            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1"/>
+                            <code value="101.20113"/>
+                            <display value="Adverse Reactions"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="additional"/>
+                        <div xmlns="http://www.w3.org/1999/xhtml">
+                            <ul>
+                                <li>
+                                    <div><b>Name</b>: sulfonamide antibacterial</div>
+                                    <div><b>Source or author</b>: Discharge Summary</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </text>
+                    <mode value="snapshot"/>
+                    <entry>
+                        <reference value="urn:uuid:1aa844c3-93e7-4f3d-878f-1207f779f36a"/>
+                    </entry>
+                </section>
+                <section>
+                    <title value="Information on medical conditions, treatments and other history"/>
+                    <code>
+                        <coding>
+                            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1"/>
+                            <code value="101.16117"/>
+                            <display value="Medical History"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="additional"/>
+                        <div xmlns="http://www.w3.org/1999/xhtml">
+                            <ul>
+                                <li>
+                                    <div><b>Name</b>: Laparoscopic cholecystectomy</div>
+                                    <div><b>Date</b>: 22/3/2018</div>
+                                    <div><b>Source or author</b>: Discharge Summary</div>
+                                    <div><b>Document date</b>: <span>2018-02-25</span></div>
+                                </li>
+                                <li>
+                                    <div><b>Name</b>: Cholecystitis</div>
+                                    <div><b>Date</b>: 2017-04-05</div>
+                                    <div><b>Source or author</b>: Discharge Summary</div>
+                                    <div><b>Document date</b>: <span>2018-02-25</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </text>
+                    <mode value="snapshot"/>
+                    <entry>
+                        <reference value="urn:uuid:52b6dc65-75b3-45e8-b313-2692df2e2d05"/>
+                    </entry>
+                    <entry>
+                        <reference value="urn:uuid:d18857d0-072b-4531-bcf4-2e05450d532c"/>
+                    </entry>
+                </section>
+            </Composition>
+        </resource>
+    </entry>
+    
+    <entry>
+        <fullUrl value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/> <!-- randomly generated, for patient -->
+        <resource>
+            <Patient>
+                <id value="769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/> <!-- Example taken before review and finalisation of Provenance PR -->
+                <extension url="http://hl7.org.au/fhir/StructureDefinition/indigenous-status">
+                    <valueCoding>
+                        <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
+                        <code value="1"/>
+                        <display value="Aboriginal but not Torres Strait Islander origin"/>
+                    </valueCoding>
+                </extension>
+                <identifier>
+                    <extension url="http://hl7.org.au/fhir/StructureDefinition/ihi-status">
+                        <valueCoding>
+                            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/ihi-status-1"/>
+                            <code value="active"/>
+                            <display value="active"/>
+                        </valueCoding>
+                    </extension>
+                    <extension url="http://hl7.org.au/fhir/StructureDefinition/ihi-record-status">
+                        <valueCoding>
+                            <system value="https://healthterminologies.gov.au/fhir/CodeSystem/ihi-record-status-1"/>
+                            <code value="verified"/>
+                            <display value="verified"/>
+                        </valueCoding>
+                    </extension>
+                    <type>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                            <code value="NI"/>
+                            <userSelected value="false"/>
+                        </coding>
+                        <text value="IHI"/>
+                    </type>
+                    <system value="http://ns.electronichealth.net.au/id/hi/ihi/1.0"/>
+                    <value value="8003608166895854"/>
+                </identifier>
+                <identifier>
+                    <type>
+                        <coding>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                            <code value="MC"/>
+                            <userSelected value="false"/>
+                        </coding>
+                        <text value="Medicare Number"/>
+                    </type>
+                    <system value="http://ns.electronichealth.net.au/id/medicare-number"/>
+                    <value value="5950890021"/>
+                    <period>
+                        <end value="2023-12"/>
+                    </period>
+                </identifier>
+                <name>
+                    <family value="Broadway"/>
+                    <given value="Mike"/>
+                    <prefix value="Mr."/>
+                </name>
+                <gender value="male"/>
+                <birthDate value="1967-04-12"/>
+            </Patient>
+        </resource>
+    </entry>
+    
+    <entry>
+        <fullUrl value="urn:uuid:1aa844c3-93e7-4f3d-878f-1207f779f36a"/> <!-- randomly generated, for allergyintolerance -->
+        <resource>
+            <AllergyIntolerance>
+                <id value="1aa844c3-93e7-4f3d-878f-1207f779f36a"/>
+                <extension url="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-mhr-allergyintolerance-detailed-type-1">
+                    <valueCodeableConcept>
+                        <coding>
+                            <system value="http://snomed.info/sct"/>
+                            <code value="419076005"/>
+                            <display value="Allergic reaction"/>
+                        </coding>
+                    </valueCodeableConcept>
+                </extension>
+                <clinicalStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+                        <code value="active"/>
+                        <display value="Active"/>
+                    </coding>
+                </clinicalStatus>
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="763875007"/>
+                        <display value="Sulfonamide-containing product"/>
+                    </coding>
+                    <text value="sulfonamide antibacterial"/>
+                </code>
+                <patient>
+                    <reference value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/>
+                </patient>
+                <reaction>
+                    <manifestation>
+                        <coding>
+                            <system value="http://snomed.info/sct"/>
+                            <code value="271807003"/>
+                            <display value="Rash"/>
+                        </coding>
+                        <text value="skin rash"/>
+                    </manifestation>
+                </reaction>
+            </AllergyIntolerance>
+        </resource>
+    </entry>
+
+    <entry>
+        <fullUrl value="urn:uuid:d18857d0-072b-4531-bcf4-2e05450d532c"/> <!-- randomly generated, for procedure -->
+        <resource>
+            <Procedure>
+                <id value="d18857d0-072b-4531-bcf4-2e05450d532c"/>
+                <status value="completed"/>
+                <category>
+                    <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="387713003"/>
+                        <display value="Surgical procedure"/>
+                    </coding>
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="45595009"/>
+                        <display value="Laparoscopic cholecystectomy"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/>
+                </subject>
+                <performedDateTime value="2018-03-22T11:45:00+10:00"/>
+                <reasonReference>
+                    <reference value="urn:uuid:52b6dc65-75b3-45e8-b313-2692df2e2d05"/>
+                </reasonReference>
+                <note>
+                    <text
+                        value="Laparoscopic cholecystectomy to resolve severe upper right abdominal pain"
+                    />
+                </note>
+                <note>
+                    <text
+                        value="Advised to present in 2 days to the usual GPs clinic 
+                        for a change of dressings."
+                    />
+                </note>
+            </Procedure>
+        </resource>
+    </entry>
+    
+    <entry>
+        <fullUrl value="urn:uuid:e99cc4ca-ebd8-4845-9508-4dc5477a0021"/> <!-- randomly generated, for provenance -->
+        <resource>
+            <Provenance> <!-- Example taken before review and finalisation of Provenance PR -->
+                <id value="e99cc4ca-ebd8-4845-9508-4dc5477a0021"/>
+                <meta>
+                    <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-provenance-mcv-1"/>
+                </meta>
+                <target> 
+                    <reference value="urn:uuid:d18857d0-072b-4531-bcf4-2e05450d532c"/> 
+                </target> 
+                <occurredPeriod> 
+                    <start value="2024-06-27"/> 
+                    <end value="2024-06-28"/> 
+                </occurredPeriod> 
+                <recorded value="2024-06-27T08:39:24+10:00"/> 
+                <agent> 
+                    <type> 
+                        <coding> 
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/> 
+                            <code value="AUT"/> 
+                        </coding> 
+                    </type> 
+                    <who> 
+                        <reference value="Organization/adha"/> <!-- Check what this Organization resource should be -->
+                    </who> 
+                </agent> 
+                <entity> 
+                    <role value="source"/> 
+                    <what> 
+                        <reference value="urn:uuid:00b55070-0fe3-4e3f-9346-f77db94ca9bf"/>     
+                        <display value="CDA Document in XDS repository"/> 
+                    </what> 
+                </entity> 
+            </Provenance> 
+        </resource>
+    </entry>
+    
+    <entry>
+        <fullUrl value="urn:uuid:00b55070-0fe3-4e3f-9346-f77db94ca9bf"/> <!-- randomly generated, for document reference -->
+        <resource>
+            <DocumentReference>
+                <id value="00b55070-0fe3-4e3f-9346-f77db94ca9bf"/>
+                <contained>
+                    <Practitioner>
+                        <id value="12c2dffd-1b42-47fe-a1a9-5cd207ae9b96"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                                    <code value="NPI"/>
+                                    <display value="National provider identifier"/>
+                                </coding>
+                                <text value="HPI-I"/>
+                            </type>
+                            <system value="http://ns.electronichealth.net.au/id/hi/hpii/1.0"/>
+                            <value value="8003619900015717"/>
+                        </identifier>
+                        <name>
+                            <use value="official"/>
+                            <family value="Freeman"/>
+                            <given value="George"/>
+                            <suffix value="M.D."/>
+                        </name>
+                        <telecom>
+                            <system value="email"/>
+                            <value value="gfreeman@example.mackaygp.com.au"/>
+                            <use value="work"/>
+                        </telecom>
+                    </Practitioner>
+                </contained>
+                <contained>
+                    <Organization>
+                        <id value="7d2449eb-78ec-47e5-a2ac-f1f3fcf06ebc"/>
+                        <identifier>
+                            <type>
+                                <coding>
+                                    <system value="http://terminology.hl7.org.au/CodeSystem/v2-0203"/>
+                                    <code value="NOI"/>
+                                    <display value="National Organisation Identifier"/>
+                                </coding>
+                                <text value="PAI-O"/>
+                            </type>
+                            <system value="http://ns.electronichealth.net.au/id/pcehr/paio/1.0"/>
+                            <value value="8003640001000036"/>
+                        </identifier>
+                        <name value="My Health Record system operator"/>
+                    </Organization>
+                </contained>
+                <masterIdentifier>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.3.16.1.38818.449459763.20240319120751355"/>
+                </masterIdentifier>
+                <identifier>
+                    <system value="urn:ietf:rfc:4122"/>
+                    <value value="urn:uuid:1.3.16.1.38818.449459763.20240319120751355"/>
+                </identifier>
+                <status value="current"/>
+                <docStatus value="final"/>
+                <type>
+                    <coding>
+                        <system value="http://loinc.org"/>
+                        <code value="18842-5"/>
+                        <display value="Discharge Summary"/>
+                    </coding>
+                </type>
+                <category>
+                    <coding>
+                        <system
+                            value="https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1"/>
+                        <code value="100.20000"/>
+                        <display value="Discharge Summary"/>
+                    </coding>
+                </category>
+                <subject>
+                    <reference value="Patient/broadway-mike"/>
+                </subject>
+                <date value="2019-02-08T10:02:00+10:00"/>
+                <author>
+                    <reference value="#12c2dffd-1b42-47fe-a1a9-5cd207ae9b96"/>
+                </author>
+                <custodian>
+                    <reference value="#7d2449eb-78ec-47e5-a2ac-f1f3fcf06ebc"/>
+                </custodian>
+                <content>
+                    <attachment>
+                        <contentType value="application/zip"/>
+                        <language value="en-AU"/>
+                        <url
+                            value="https://services.svt.gw.myhealthrecord.gov.au/fhir/v1.3.0/Binary/1.3.16.1.38818.449459763.20220216144334002"/>
+                        <size value="7064"/>
+                        <hash value="fdf2e3065cccb6ae93d9f2de7b4b89872063b963"/>
+                        <title value="Discharge Summary"/>
+                    </attachment>
+                    <format>
+                        <system value="urn:ietf:rfc:3986"/>
+                        <code value="urn:oid:1.2.36.1.2001.1006.1.20000.11"/>
+                        <display value="Discharge Summary"/>
+                    </format>
+                </content>
+                <context>
+                    <period>
+                        <start value="2021-12-18T00:00:00Z"/>
+                        <end value="2021-12-18T00:00:00Z"/>
+                    </period>
+                    <facilityType>
+                        <coding>
+                            <system value="http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0"/>
+                            <code value="851"/>
+                            <display value="Medical Services"/>
+                        </coding>
+                    </facilityType>
+                    <practiceSetting>
+                        <coding>
+                            <system value="http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0"/>
+                            <code value="8511"/>
+                            <display value="General Practice Medical Services"/>
+                        </coding>
+                    </practiceSetting>            
+                </context>
+            </DocumentReference>
+        </resource>
+    </entry>
+    
+    <entry>
+        <fullUrl value="urn:uuid:52b6dc65-75b3-45e8-b313-2692df2e2d05"/> <!-- randomly generated, for condition -->
+        <resource>
+            <Condition>
+                <id value="52b6dc65-75b3-45e8-b313-2692df2e2d05"/>    
+                <clinicalStatus>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                        <code value="resolved"/>
+                        <display value="Resolved"/>
+                    </coding>
+                </clinicalStatus>
+                <category>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+                        <code value="problem-list-item"/>
+                        <display value="Problem List Item"/>
+                    </coding>
+                </category>
+                <category>
+                    <text value="Principal diagnosis"/>
+                </category>
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="76581006"/>
+                        <display value="Cholecystitis"/>
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/>
+                </subject>
+                <onsetDateTime value="2017-03-30"/>
+                <abatementDateTime value="2017-04-05"/>
+                <recordedDate value="2018-02-25T11:59:54+10:00"/>
+                <note>
+                    <text
+                        value="Acute cholecystitis caused by gallstones."/>
+                </note>
+            </Condition>
+        </resource>
+    </entry>
+  
+</Bundle>
