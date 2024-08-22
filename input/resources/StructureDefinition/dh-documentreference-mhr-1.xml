@@ -154,7 +154,7 @@
       <max value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mcv-1"/>
         <targetProfile value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner"/>
       </type>
       <mustSupport value="true"/>
