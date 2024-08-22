@@ -7,20 +7,10 @@
     <target> 
         <reference value="Procedure/cholecystectomy-mcv-01"/> 
     </target> 
-    <occurredPeriod> 
-        <start value="2024-06-27"/> 
-        <end value="2024-06-28"/> 
-    </occurredPeriod> 
     <recorded value="2024-06-27T08:39:24+10:00"/> 
     <agent> 
-        <type> 
-            <coding> 
-                <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/> 
-                <code value="AUT"/> 
-            </coding> 
-        </type> 
         <who> 
-            <reference value="Organization/adha"/> 
+            <reference value="Organization/healthau"/> 
         </who> 
     </agent> 
     <entity> 

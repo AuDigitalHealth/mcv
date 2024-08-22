@@ -67,6 +67,8 @@
         </extension>
       </extension>
       <path value="Provenance.agent"/>
+      <min value="1"/>
+      <max value="1"/>
       <mustSupport value="true"/>
     </element>
     <element id="Provenance.agent.who">
@@ -98,6 +100,8 @@
         </extension>
       </extension>
       <path value="Provenance.entity"/>
+      <min value="1"/>
+      <max value="1"/>
       <mustSupport value="true"/>
     </element>
     <element id="Provenance.entity.role">

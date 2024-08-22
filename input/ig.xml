@@ -89,14 +89,6 @@
         <!--ORGANIZATION EXAMPLES-->
         <resource>
             <reference>
-                <reference value="Organization/adha"/>
-            </reference>
-            <name value="Australian Digital Health Agency"/>
-            <description value="Australian Digital Health Agency"/>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Organization/healthau"/>
             </reference>
             <name value="Australian Government Department of Health"/>
