@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Provenance xmlns="http://hl7.org/fhir">
+    <id value="provenance-cholecystectomy-mcv-01"/>
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-provenance-mcv-1"/>
+    </meta>
+    <target> 
+        <reference value="Procedure/cholecystectomy-mcv-01"/> 
+    </target> 
+    <recorded value="2024-06-27T08:39:24+10:00"/> 
+    <agent> 
+        <who> 
+            <reference value="Organization/mhr-operator"/> 
+        </who> 
+    </agent> 
+    <entity> 
+        <role value="source"/> 
+        <what> 
+            <reference value="DocumentReference/mcv-ds-01"/>     
+            <display value="CDA Document in XDS repository"/> 
+        </what> 
+    </entity> 
+</Provenance> 
