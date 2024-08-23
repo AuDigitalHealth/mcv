@@ -41,6 +41,15 @@
           <valueCanonical value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-allergyintolerance-mcv-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-mcv-1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Flag"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-mcv-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-procedure-mcv-1"/>
+      </type>
       <path value="Provenance.target"/>
       <mustSupport value="true"/>
     </element>
@@ -128,6 +137,10 @@
             value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
         </extension>
       </extension>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-documentreference-mhr-1"/>
+      </type>
       <path value="Provenance.entity.what"/>
       <mustSupport value="true"/>
     </element>

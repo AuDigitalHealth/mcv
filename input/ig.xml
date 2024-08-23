@@ -103,6 +103,14 @@
             <description value="Mackay Family Medicine Clinic"/>
             <exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-organization"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/mhr-operator"/>
+            </reference>
+            <name value="My Health Record system operator"/>
+            <description value="My Health Record system operator"/>
+            <exampleBoolean value="true"/>
+        </resource>
         <!--PATIENT EXAMPLES-->
         <resource>
             <reference>

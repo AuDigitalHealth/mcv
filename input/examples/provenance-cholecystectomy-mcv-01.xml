@@ -16,7 +16,7 @@
     <entity> 
         <role value="source"/> 
         <what> 
-            <reference value="DocumentReference/example"/>     
+            <reference value="DocumentReference/mcv-ds-01"/>     
             <display value="CDA Document in XDS repository"/> 
         </what> 
     </entity> 
