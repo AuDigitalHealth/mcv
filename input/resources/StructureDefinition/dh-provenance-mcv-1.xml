@@ -45,8 +45,8 @@
         <code value="Reference"/>
         <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-allergyintolerance-mcv-1"/>
         <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-mcv-1"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Flag"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-explanationofbenefit-mcv-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1"/>
         <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-mcv-1"/>
         <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-procedure-mcv-1"/>
       </type>

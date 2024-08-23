@@ -10,7 +10,7 @@
     <recorded value="2024-06-27T08:39:24+10:00"/> 
     <agent> 
         <who> 
-            <reference value="Organization/healthau"/> 
+            <reference value="Organization/mhr-operator"/> 
         </who> 
     </agent> 
     <entity> 
