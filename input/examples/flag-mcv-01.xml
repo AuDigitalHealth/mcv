@@ -1,0 +1,20 @@
+<Flag xmlns="http://hl7.org/fhir">
+    <id value="mcv-01" />
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1" />
+    </meta>
+    <status value="active" />
+    <category>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="1500551000168103" />
+        </coding>
+        <text value="Australian Immunisation Register notice" />
+    </category>
+    <code>
+        <text value="Medical contraindication to MMR II recorded on 12 Oct 2020."/>
+    </code>
+    <subject>
+        <reference value="Patient/broadway-mike"/>
+    </subject>
+</Flag>
