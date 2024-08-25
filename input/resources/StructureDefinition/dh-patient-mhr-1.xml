@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="dh-patient-mcv-1"/>
-  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mcv-1"/>
+  <id value="dh-patient-mhr-1"/>
+  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mhr-1"/>
   <version value="1.0.2"/>
-  <name value="MHRPatientMCV"/>
-  <title value="MHR Medical Conditions View Patient"/>
+  <name value="MHRPatient"/>
+  <title value="MHR Patient"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
@@ -15,7 +15,7 @@
     </telecom>
   </contact>
   <description
-    value="The purpose of this profile is to provide a representation of a patient to check and match patient identity the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia."/>
+    value="The purpose of this profile is to provide a representation of a patient for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia."/>
   <copyright
     value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
   <fhirVersion value="4.0.1"/>
