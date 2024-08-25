@@ -77,6 +77,16 @@
             <description value="Record of Claim against MBS for 30185 removal of plantar warts for Mr. Mike Broadway"/>
             <exampleBoolean value="true"/>
         </resource>
+        <!-- FLAG EXAMPLES-->       
+        <resource>
+            <reference>
+                <reference value="Flag/mcv-01"/>
+            </reference>
+            <name value="Australian Immunisation Register notice: Medical contraindication"/>
+            <description value="Australian Immunisation Register notice: Medical contraindication"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1"/>
+        </resource>
         <!--OBSERVATION EXAMPLES-->
         <resource>
             <reference>
@@ -87,6 +97,14 @@
             <exampleBoolean value="true"/>
         </resource>
         <!--ORGANIZATION EXAMPLES-->
+        <resource>
+            <reference>
+                <reference value="Organization/adha"/>
+            </reference>
+            <name value="Australian Digital Health Agency"/>
+            <description value="Australian Digital Health Agency"/>
+            <exampleBoolean value="true"/>
+        </resource>
         <resource>
             <reference>
                 <reference value="Organization/healthau"/>
@@ -102,6 +120,14 @@
             <name value="Mackay Family Medicine Clinic"/>
             <description value="Mackay Family Medicine Clinic"/>
             <exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-organization"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/mhr-operator"/>
+            </reference>
+            <name value="My Health Record system operator"/>
+            <description value="My Health Record system operator"/>
+            <exampleBoolean value="true"/>
         </resource>
         <!--PATIENT EXAMPLES-->
         <resource>
@@ -154,7 +180,17 @@
                 <reference value="Procedure/cholecystectomy-mcv-01"/>
             </reference>
             <name value="A cholecystectomy procedure"/>
-            <description value="A cholecystectomy ...."/>
+            <description value="A cholecystectomy procedure"/>
+            <exampleBoolean value="true"/>
+        </resource>
+
+        <!--PROVENANCE EXAMPLES-->
+        <resource>
+            <reference>
+                <reference value="Provenance/provenance-cholecystectomy-mcv-01"/>
+            </reference>
+            <name value="The provenance of a cholecystectomy procedure"/>
+            <description value="An example showing the provenance for a cholecystectomy procedure"/>
             <exampleBoolean value="true"/>
         </resource>
 
