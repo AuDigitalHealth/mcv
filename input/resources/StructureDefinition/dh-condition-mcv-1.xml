@@ -76,7 +76,7 @@
       <type>
         <code value="Reference"/>
         <targetProfile
-          value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
+          value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mhr-1"/>
       </type>
     </element>
     <element id="Condition.onset[x]">

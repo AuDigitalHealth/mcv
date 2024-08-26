@@ -3,9 +3,9 @@
     <id value="dh-procedure-mcv-1"/>
     <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-procedure-mcv-1"/>
     <version value="1.0.2"/>
-    <name value="ADHAProcedureMCV"/>
-    <title value="ADHA Medical Conditions View Procedure"/>
-    <status value="active"/>
+    <name value="MHRProcedureMCV"/>
+    <title value="MHR Medical Conditions View Procedure"/>
+    <status value="draft"/>
     <experimental value="false"/>
     <publisher value="Australian Digital Health Agency"/>
     <contact>
@@ -75,8 +75,7 @@
             <path value="Procedure.subject"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile
-                    value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
+                <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mhr-1"/>
             </type>
         </element>
         <element id="Procedure.performedDateTime">
