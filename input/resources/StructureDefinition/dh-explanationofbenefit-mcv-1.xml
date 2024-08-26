@@ -114,7 +114,7 @@
       <path value="ExplanationOfBenefit.patient"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-match-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mhr-1"/>
       </type>      
       <mustSupport value="true"/>
     </element>
