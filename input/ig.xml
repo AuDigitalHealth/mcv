@@ -86,6 +86,15 @@
             <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
             <exampleBoolean value="true"/>
         </resource>
+        <!--DOCUMENTREFERENCE EXAMPLES-->
+        <resource>
+            <reference>
+                <reference value="DocumentReference/mcv-ds-01"/>
+            </reference>
+            <name value="Discharge Summary document reference"/>
+            <description value="An example of a document reference containing the location of a Discharge Summary"/>
+            <exampleBoolean value="true"/>
+        </resource>
         <!--EXPLANATIONOFBENEFIT EXAMPLES-->
         <resource>
             <reference>
