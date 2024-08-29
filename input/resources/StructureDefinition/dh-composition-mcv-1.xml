@@ -22,9 +22,24 @@
   <baseDefinition value="http://hl7.org.au/fhir/StructureDefinition/au-composition"/>
   <derivation value="constraint"/>
   <differential>
+    <element id="Composition">
+      <path value="Composition"/>
+      <condition value="inv-mcv-comp-01"/>
+      <constraint>
+        <key value="inv-mcv-comp-01"/>
+        <severity value="error"/>
+        <human value="Contained resources shall have a valid identifier"/>
+        <expression value="contained.device.exists() implies contained.device.all($this.identifier.exists())"/>
+        <source value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-composition-mcv-1"/>
+      </constraint>
+    </element>
     <element id="Composition.id">
       <path value="Composition.id"/>
       <min value="1"/>
+    </element>
+    <element id="Composition.language">
+      <path value="Composition.language"/>
+      <fixedCode value="en-AU"/>
     </element>
     <element id="Composition.status">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
@@ -103,7 +118,7 @@
       <max value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mcv-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-mhr-1"/>
       </type>
       <mustSupport value="true"/>
     </element>
@@ -129,12 +144,12 @@
         </extension>
       </extension>
       <path value="Composition.author"/>
+      <min value="1"/>
+      <max value="1"/>
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
       </type>
-      <min value="1"/>
-      <max value="1"/>
       <mustSupport value="true"/>
     </element>
     <element id="Composition.title">
@@ -345,8 +360,8 @@
       <type>
         <code value="Reference"/>
         <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-mcv-1"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Flag"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-explanationofbenefit-mcv-1"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1"/>
         <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-mcv-1"/>
         <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-procedure-mcv-1"/>
       </type>

@@ -31,6 +31,10 @@
       <path value="Bundle.id"/>
       <min value="1"/>
     </element>
+    <element id="Bundle.language">
+      <path value="Bundle.language"/>
+      <fixedCode value="en-AU"/>
+    </element>
     <element id="Bundle.type">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">
         <extension url="code">
@@ -43,9 +47,6 @@
       <path value="Bundle.type"/>
       <fixedCode value="document"/>
       <mustSupport value="true"/>
-    </element>
-    <element id="Bundle.timestamp">
-      <path value="Bundle.timestamp"/>
     </element>
     <element id="Bundle.entry">
       <extension url="http://hl7.org/fhir/StructureDefinition/obligation">

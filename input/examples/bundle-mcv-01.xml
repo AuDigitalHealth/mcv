@@ -9,13 +9,13 @@
     <language value="en-AU"/>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
-        <value value="urn:uuid:c09abd65-7e63-407d-939a-95bcabc393cf"/> <!-- randomly generated, for bundle -->
+        <value value="urn:uuid:c09abd65-7e63-407d-939a-95bcabc393cf"/>
     </identifier>
     <type value="document"/>
     <timestamp value="2023-08-12T10:30:00+10:00"/>
     
     <entry>
-        <fullUrl value="urn:uuid:b6286527-e740-4317-bc22-49996956c2a1"/> <!-- randomly generated, for composition -->
+        <fullUrl value="urn:uuid:b6286527-e740-4317-bc22-49996956c2a1"/>
         <resource>
             <Composition>
                 <id value="b6286527-e740-4317-bc22-49996956c2a1"/>
@@ -147,10 +147,10 @@
     </entry>
     
     <entry>
-        <fullUrl value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/> <!-- randomly generated, for patient -->
+        <fullUrl value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/>
         <resource>
             <Patient>
-                <id value="769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/> <!-- Example taken before review and finalisation of Provenance PR -->
+                <id value="769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/>
                 <extension url="http://hl7.org.au/fhir/StructureDefinition/indigenous-status">
                     <valueCoding>
                         <system value="https://healthterminologies.gov.au/fhir/CodeSystem/australian-indigenous-status-1"/>
@@ -211,7 +211,7 @@
     </entry>
     
     <entry>
-        <fullUrl value="urn:uuid:1aa844c3-93e7-4f3d-878f-1207f779f36a"/> <!-- randomly generated, for allergyintolerance -->
+        <fullUrl value="urn:uuid:1aa844c3-93e7-4f3d-878f-1207f779f36a"/>
         <resource>
             <AllergyIntolerance>
                 <id value="1aa844c3-93e7-4f3d-878f-1207f779f36a"/>
@@ -257,7 +257,7 @@
     </entry>
 
     <entry>
-        <fullUrl value="urn:uuid:d18857d0-072b-4531-bcf4-2e05450d532c"/> <!-- randomly generated, for procedure -->
+        <fullUrl value="urn:uuid:d18857d0-072b-4531-bcf4-2e05450d532c"/>
         <resource>
             <Procedure>
                 <id value="d18857d0-072b-4531-bcf4-2e05450d532c"/>
@@ -299,13 +299,10 @@
     </entry>
     
     <entry>
-        <fullUrl value="urn:uuid:e99cc4ca-ebd8-4845-9508-4dc5477a0021"/> <!-- randomly generated, for provenance -->
+        <fullUrl value="urn:uuid:e99cc4ca-ebd8-4845-9508-4dc5477a0021"/>
         <resource>
-            <Provenance> <!-- Example taken before review and finalisation of Provenance PR -->
+            <Provenance>
                 <id value="e99cc4ca-ebd8-4845-9508-4dc5477a0021"/>
-                <meta>
-                    <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-provenance-mcv-1"/>
-                </meta>
                 <target> 
                     <reference value="urn:uuid:d18857d0-072b-4531-bcf4-2e05450d532c"/> 
                 </target> 
@@ -322,7 +319,7 @@
                         </coding> 
                     </type> 
                     <who> 
-                        <reference value="Organization/adha"/> <!-- Check what this Organization resource should be -->
+                        <reference value="Organization/adha"/>
                     </who> 
                 </agent> 
                 <entity> 
@@ -337,7 +334,7 @@
     </entry>
     
     <entry>
-        <fullUrl value="urn:uuid:00b55070-0fe3-4e3f-9346-f77db94ca9bf"/> <!-- randomly generated, for document reference -->
+        <fullUrl value="urn:uuid:00b55070-0fe3-4e3f-9346-f77db94ca9bf"/>
         <resource>
             <DocumentReference>
                 <id value="00b55070-0fe3-4e3f-9346-f77db94ca9bf"/>
@@ -413,7 +410,7 @@
                     </coding>
                 </category>
                 <subject>
-                    <reference value="Patient/broadway-mike"/>
+                    <reference value="urn:uuid:769d6e70-97b7-4a52-96e0-8ba4ec9d81f8"/>
                 </subject>
                 <date value="2019-02-08T10:02:00+10:00"/>
                 <author>
@@ -463,7 +460,7 @@
     </entry>
     
     <entry>
-        <fullUrl value="urn:uuid:52b6dc65-75b3-45e8-b313-2692df2e2d05"/> <!-- randomly generated, for condition -->
+        <fullUrl value="urn:uuid:52b6dc65-75b3-45e8-b313-2692df2e2d05"/>
         <resource>
             <Condition>
                 <id value="52b6dc65-75b3-45e8-b313-2692df2e2d05"/>    
