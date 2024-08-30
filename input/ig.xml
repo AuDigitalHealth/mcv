@@ -142,10 +142,10 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Organization/mackay-clinic"/>
+                <reference value="Organization/birdsville-hospital"/>
             </reference>
-            <name value="Mackay Family Medicine Clinic"/>
-            <description value="Mackay Family Medicine Clinic"/>
+            <name value="Birdsville Hospital"/>
+            <description value="Birdsville Hospital"/>
             <exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-organization"/>
         </resource>
         <resource>
