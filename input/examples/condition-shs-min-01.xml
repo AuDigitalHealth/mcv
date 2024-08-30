@@ -19,7 +19,7 @@
         </coding>
     </code>
     <subject>
-        <reference value="Patient/broadway-mike"/>
+        <reference value="Patient/lobster-larry"/>
     </subject>
     <recordedDate value="2015-02-25T11:59:54+10:00"/>
 </Condition>
