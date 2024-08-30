@@ -25,7 +25,7 @@
 	</subType>
 	<use value="claim"/>
 	<patient>
-		<reference value="Patient/broadway-mike"/>
+		<reference value="Patient/zhu-lily"/>
 	</patient>
 	<created value="2017-12-04"/>
 	<insurer>

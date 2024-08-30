@@ -15,6 +15,6 @@
         <text value="Medical contraindication to MMR II recorded on 12 Oct 2020."/>
     </code>
     <subject>
-        <reference value="Patient/broadway-mike"/>
+        <reference value="Patient/zhu-lily"/>
     </subject>
 </Flag>
