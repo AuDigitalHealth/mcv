@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Organization xmlns="http://hl7.org/fhir">
-    <id value="mackay-clinic"/>
+    <id value="birdsville-hospital"/>
     <meta>
         <profile value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-organization"/>
     </meta>
@@ -15,10 +15,10 @@
         <system value="http://hl7.org.au/id/abn"/>
         <value value="51824754455"/>
     </identifier>
-    <name value="Mackay Family Medicine Clinic"/>
+    <name value="Birdsville Hospital"/>
     <telecom>
         <system value="email"/>
-        <value value="reception@example.mfmc.com.au"/>
+        <value value="reception@example.birdsvillehosp.com.au"/>
         <use value="work"/>
     </telecom>
     <telecom>
@@ -34,9 +34,9 @@
     <address>
         <type value="postal"/>
         <line value="LPO Box 789"/>
-        <city value="Mackay"/>
+        <city value="Birdsville"/>
         <state value="Qld"/>
-        <postalCode value="4740"/>
+        <postalCode value="4482"/>
         <country value="AU"/>
     </address>
 </Organization>

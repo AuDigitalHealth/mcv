@@ -31,7 +31,7 @@
         <reference value="Practitioner/freeman-george"/>
     </practitioner>
     <organization>
-        <reference value="Organization/mackay-clinic"/>
+        <reference value="Organization/birdsville-hospital"/>
     </organization>
     <code>
         <coding>
@@ -43,7 +43,7 @@
     </code>
     <telecom>
         <system value="email"/>
-        <value value="gfreeman@example.mackaygp.com.au"/>
+        <value value="gfreeman@example.birdsvillehosp.com.au"/>
         <use value="work"/>
     </telecom>
 </PractitionerRole>
