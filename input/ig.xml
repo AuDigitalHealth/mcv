@@ -40,7 +40,7 @@
                 <reference value="AllergyIntolerance/peanut-01"/>
             </reference>
             <name value="Peanut allergy"/>
-            <description value="An example of "/>
+            <description value="Peanut allergy as an example of an AllergyIntolerance"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -48,7 +48,7 @@
                 <reference value="AllergyIntolerance/sulfonamide-01"/>
             </reference>
             <name value="Sulfonamide allergy"/>
-            <description value="A maximal example of a Condition resource containing information from a Discharge Summary"/>
+            <description value="A Sulfonamide allergy as an example of an AllergyIntolerance"/>
             <exampleBoolean value="true"/>
         </resource>
         <!--BUNDLE EXAMPLES-->
@@ -101,7 +101,7 @@
                 <reference value="ExplanationOfBenefit/explanationofbenefit-mbs-01"/>
             </reference>
             <name value="Record of Claim against MBS for 30185 removal of plantar warts for Mr. Mike Broadway"/>
-            <description value="Record of Claim against MBS for 30185 removal of plantar warts for Mr. Mike Broadway"/>
+            <description value="Record of Claim against MBS for 30185 removal of plantar warts for Mr. Mike Broadway - as an example of an ExplanationOfBenefit"/>
             <exampleBoolean value="true"/>
         </resource>
         <!-- FLAG EXAMPLES-->       
@@ -110,7 +110,7 @@
                 <reference value="Flag/mcv-01"/>
             </reference>
             <name value="Australian Immunisation Register notice: Medical contraindication"/>
-            <description value="Australian Immunisation Register notice: Medical contraindication"/>
+            <description value="Australian Immunisation Register notice: Medical contraindication  - Flag example"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-mcv-1"/>
         </resource>
@@ -129,7 +129,7 @@
                 <reference value="Organization/adha"/>
             </reference>
             <name value="Australian Digital Health Agency"/>
-            <description value="Australian Digital Health Agency"/>
+            <description value="Australian Digital Health Agency as an Organization"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -137,7 +137,7 @@
                 <reference value="Organization/healthau"/>
             </reference>
             <name value="Australian Government Department of Health"/>
-            <description value="Australian Government Department of Health"/>
+            <description value="Australian Government Department of Health as an Organization"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
@@ -145,7 +145,7 @@
                 <reference value="Organization/birdsville-hospital"/>
             </reference>
             <name value="Birdsville Hospital"/>
-            <description value="Birdsville Hospital"/>
+            <description value="Birdsville Hospital as an Organization"/>
             <exampleCanonical value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-organization"/>
         </resource>
         <resource>
@@ -153,7 +153,7 @@
                 <reference value="Organization/mhr-operator"/>
             </reference>
             <name value="My Health Record system operator"/>
-            <description value="My Health Record system operator"/>
+            <description value="My Health Record system operator as an Organization"/>
             <exampleBoolean value="true"/>
         </resource>
         <!--PATIENT EXAMPLES-->
@@ -187,7 +187,7 @@
                 <reference value="Practitioner/freeman-george"/>
             </reference>
             <name value="Dr. George Freeman"/>
-            <description value="General Practitioner - Dr. George Freeman"/>
+            <description value="General Practitioner - Dr. George Freeman as a Practitioner"/>
             <exampleCanonical
                 value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitioner"/>
         </resource>
@@ -197,7 +197,7 @@
                 <reference value="PractitionerRole/freeman-george-gp"/>
             </reference>
             <name value="Dr. George Freeman, GP, at Mackay Family Medicine Clinic"/>
-            <description value="Dr. George Freeman, GP, at Mackay Family Medicine Clinic"/>
+            <description value="Dr. George Freeman, GP, at Mackay Family Medicine Clinic as a PractitionerRole"/>
             <exampleCanonical
                 value="http://hl7.org.au/fhir/core/StructureDefinition/au-core-practitionerrole"/>
         </resource>
@@ -217,7 +217,7 @@
                 <reference value="Provenance/provenance-cholecystectomy-mcv-01"/>
             </reference>
             <name value="The provenance of a cholecystectomy procedure"/>
-            <description value="An example showing the provenance for a cholecystectomy procedure"/>
+            <description value="Provenance for a cholecystectomy procedure"/>
             <exampleBoolean value="true"/>
         </resource>
 
