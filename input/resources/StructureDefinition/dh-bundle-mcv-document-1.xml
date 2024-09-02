@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="dh-bundle-mcv-document-1"/>
   <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bundle-mcv-document-1"/>
-  <name value="MCVBundleDocument"/>
+  <name value="MHRBundleDocumentMCV"/>
   <title value="MHR Medical Conditions View Document Bundle"/>
   <status value="draft"/>
   <experimental value="false"/>
@@ -13,7 +13,7 @@
       <value value="help@digitalhealth.gov.au"/>
     </telecom>
   </contact>
-  <description value="The purpose of this profile is to provide a collection of resources handled as a document to support a consolidated view of medical conditions and past medical history contained in a patient’s My Health Record. It is a profile of the [Bundle](https://hl7.org/fhir/R4/bundle.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
+  <description value="The purpose of this profile is to provide a collection of resources handled as a document to support a consolidated view of medical conditions and past medical history contained in a patient’s My Health Record. This profile is derived from the [Bundle](https://hl7.org/fhir/R4/bundle.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
   <copyright
     value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
   <fhirVersion value="4.0.1"/>

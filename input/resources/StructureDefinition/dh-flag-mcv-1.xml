@@ -14,7 +14,7 @@
       <value value="help@digitalhealth.gov.au"/>
     </telecom>
   </contact>
-  <description value="The purpose of this profile is to provide a representation of a flag (e.g. warning or notification) for the Medical Conditions View for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia. It is profile of the [Flag](https://hl7.org/fhir/R4/flag.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
+  <description value="The purpose of this profile is to provide a representation of a flag (e.g. warning or notification) for the Medical Conditions View for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia. This profile is derived from the [Flag](https://hl7.org/fhir/R4/flag.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
   <copyright
     value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
   <fhirVersion value="4.0.1"/>

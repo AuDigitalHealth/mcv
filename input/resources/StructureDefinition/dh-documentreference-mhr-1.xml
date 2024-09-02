@@ -13,7 +13,7 @@
       <value value="help@digitalhealth.gov.au"/>
     </telecom>
   </contact>
-  <description value="The purpose of this profile is to provide a representation of a document reference for CDA documents in My Health Record. This profile supports describing a document that is made available to a system and is used for documents that are not authored and assembled in FHIR e.g. documents whose form is an attachment. It is a profile of the [DocumentReference](https://hl7.org/fhir/R4/documentreference.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
+  <description value="The purpose of this profile is to provide a representation of a document reference for CDA documents in My Health Record. This profile supports describing a document that is made available to a system and is used for documents that are not authored and assembled in FHIR e.g. documents whose form is an attachment. This profile is derived from the [DocumentReference](https://hl7.org/fhir/R4/documentreference.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
   <copyright value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
   <fhirVersion value="4.0.1"/>
   <kind value="resource"/>

@@ -14,7 +14,7 @@
       <value value="help@digitalhealth.gov.au"/>
     </telecom>
   </contact>
-  <description value="The purpose of this profile is to provide a representation of a patient for exchange usage scenarios with the My Health Record system infrastructure in Australia. It is based on the [AU Core Patient](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-patient.html) profile and describes the data structures and obligations to be met when conforming to this profile."/>
+  <description value="The purpose of this profile is to provide a representation of a patient for exchange usage scenarios with the My Health Record system infrastructure in Australia. This profile is derived from the [AU Core Patient](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-patient.html) profile and describes the data structures and obligations to be met when conforming to this profile."/>
   <copyright
     value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
   <fhirVersion value="4.0.1"/>
