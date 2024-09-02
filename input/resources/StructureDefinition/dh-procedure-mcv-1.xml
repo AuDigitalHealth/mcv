@@ -14,8 +14,7 @@
             <value value="help@digitalhealth.gov.au"/>
         </telecom>
     </contact>
-    <description
-        value="The purpose of this profile is to provide a Medical Conditions View representation of a procedure for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia."/>
+    <description value="The purpose of this profile is to provide a Medical Conditions View representation of a procedure for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia. It is a profile of the [Condition](https://hl7.org/fhir/R4/condition.html) resource and describes the data structures and obligations to be met when conforming to this profile. It is a profile of the [Provenance](https://hl7.org/fhir/R4/provenance.html) resource and describes the data structures and obligations to be met when conforming to this profile."/>
     <copyright
         value="Copyright © 2022 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
     <fhirVersion value="4.0.1"/>
