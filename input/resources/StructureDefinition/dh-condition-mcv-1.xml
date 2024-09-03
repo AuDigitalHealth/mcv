@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="dh-condition-mcv-1"/>
   <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-mcv-1"/>
-  <name value="DHConditionMCV"/>
+  <name value="MHRConditionMCV"/>
   <title value="MHR Medical Conditions View Condition"/>
   <status value="draft"/>
   <publisher value="Australian Digital Health Agency"/>
@@ -13,7 +13,7 @@
     </telecom>
   </contact>
   <description
-    value="The purpose of this profile is to support a consolidated view of medical conditions and past medical history contained in a patient's My Health Record. It is based on the [AU Core Condition](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-condition.html) profile and describes the data structures and obligations to be met when conforming to this profile."/>
+    value="The purpose of this profile is to support a consolidated view of medical conditions and past medical history contained in a patient's My Health Record. This profile is derived from the [AU Core Condition](https://build.fhir.org/ig/hl7au/au-fhir-core/StructureDefinition-au-core-condition.html) profile and describes the data structures and obligations to be met when conforming to this profile."/>
   <copyright
     value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/."/>
   <kind value="resource"/>
