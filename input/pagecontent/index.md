@@ -1,10 +1,9 @@
-> {% include active-development-boilerplate.md %}
-
 ### Introduction
 
-This guide is a collection of HL7™ FHIR® Release 4 (R4) artefacts authored and maintained by the Agency. It supplements the [My Health Record FHIR Gateway](https://developer.digitalhealth.gov.au/resources/services/my-health-record/my-health-record-fhir-gateway) technical specifications that support developers connect apps and other products to the My Health Record system. The artefacts in this publication describe the data structure of the payload in the API response messages. 
+The Australian Digital Health Agency FHIR Implementation Guide contains HL7™ FHIR® Release 4 (R4) artefacts authored and maintained by the Agency to support the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia.
 
-**MORE CONTENT TO BE PROVIDED.**
+It also supplements the [My Health Record FHIR Gateway](https://developer.digitalhealth.gov.au/resources/services/my-health-record/my-health-record-fhir-gateway) technical specifications that support developers connect apps and other products to the My Health Record system. The artefacts in this publication describe the data structure of the payload in the API response messages. 
+
 
 Wherever possible, material in this specification is based on existing standards. All efforts have been made to minimise divergence from the HL7 Australia profiles of HL7 International standards to provide for system interoperability and compatibility with other profiles.
 
@@ -13,10 +12,12 @@ Wherever possible, material in this specification is based on existing standards
 This guide is divided into several pages which are listed at the top of each page in the menu bar.
 
 - [Home](index.html): This page provides the introduction and scope for this guide.
-- [MHR Gateway API](MHRGatewayAPI.html): This page provides the introduction and scope for this guide.
 - [Conformance](conformance.html): This page describes the expectations for *Must Support* elements in the profiles in this guide.
-- [Artefacts](artefacts.html): This page lists the FHIR artefacts that are defined in this guide.
+- [Guidance](guidance.html): This page provides guidance about various artefcs that are defined in this guide.
+- [Profile and Extensions](profiles-and-extensions.html): This page lists the FHIR profles and extesions that are defined in this guide.
+- [Terminology](terminology.html): This page lists the FHIR terminology that are defined in this guide.
 - [Examples](examples.html): This page lists all the examples used in this guide.
+- [MHR Gateway API](MHRGatewayAPI.html): This page provides the introduction and scope for this guide.
 - [Downloads](downloads.html): This page provides links to downloadable artefacts including the NPM package.
 - [Disclaimers](disclaimers.html): This page lists the licensing, copyright, and disclaimers under which this guide is issued. 
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="metro-specialist-services-group"/>
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"/>
+    </meta>
+    <identifier>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="XX"/>
+            </coding>
+            <text value="ABN"/>
+        </type>
+        <system value="http://hl7.org.au/id/abn"/>
+        <!-- Not a valid ABN. This example uses a fictional
+        ABN that does not conform to ABN format to ensure no conflict with real world values -->
+        <value value="16000773547"/>
+    </identifier>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="288565001"/>
+            <display value="Medical centre"/>
+        </coding>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+            <code value="prov"/>
+            <display value="Healthcare Provider"/>
+        </coding>
+    </type>
+    <name value="Metropolitan Specialist Services Group"/>
+    <telecom>
+        <system value="email"/>
+        <value value="info@metrospeicalistservicesgroup.example.com"/>
+        <use value="work"/>
+    </telecom>
+    <telecom>
+        <system value="phone"/>
+        <value value="(07) 5550 2437"/>
+        <use value="work"/>
+    </telecom>
+    <address>
+        <type value="postal"/>
+        <line value="GPO BOX 1777Q"/>
+        <city value="ORBIT"/>
+        <state value="NSW"/>
+        <postalCode value="2060"/>
+        <country value="AU"/>
+    </address>
+</Organization>

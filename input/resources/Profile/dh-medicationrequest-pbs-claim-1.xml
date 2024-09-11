@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="dh-medicationrequest-pbs-claim-1"/>
+  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medicationrequest-pbs-claim-1"/>
+  <version value="1.0.0"/>
+  <name value="ADHAMedicationRequestPBSClaim"/>
+  <title value="ADHA PBS Claim Item"/>
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Australian Digital Health Agency" />
+  <contact>
+    <telecom>
+      <system value="email" />
+      <value value="help@digitalhealth.gov.au" />
+    </telecom>
+  </contact>
+  <description value="The purpose of this profile is to define a representation of the prescription item claimed in a claim against the Pharmaceutical Benefits Scheme (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS) for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia." />
+  <copyright value="Copyright © 2022 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/." />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource"/>
+  <abstract value="false"/>
+  <type value="MedicationRequest"/>
+  <baseDefinition value="http://hl7.org.au/fhir/StructureDefinition/au-medicationrequest"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="MedicationRequest">
+      <path value="MedicationRequest"/>
+      <short value="PBS or RPBS claim item"/>
+      <definition value="A PBS claim item includes information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the PBS or Repatriation Pharmaceutical Benefits Scheme (RPBS)."/>
+    </element>
+    <element id="MedicationRequest.identifier">
+      <path value="MedicationRequest.identifier"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.status">
+      <path value="MedicationRequest.status"/>
+      <fixedCode value="unknown"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.intent">
+      <path value="MedicationRequest.intent"/>
+      <fixedCode value="order"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.medication[x]:medicationReference">
+      <path value="MedicationRequest.medication[x]"/>
+      <sliceName value="medicationReference"/>
+      <min value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"/>
+      </type>
+      <condition value="inv-dh-pbs-03"/>
+      <constraint>
+        <key value="inv-dh-pbs-03"/>
+        <severity value="error"/>
+        <human value="At least reference shall be present"/>
+        <expression value="reference.exists()"/>
+        <source value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medicationrequest-pbs-claim-1"/>
+      </constraint>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.subject">
+      <path value="MedicationRequest.subject"/>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1" />
+      </type>
+      <condition value="inv-dh-medreq-01"/>
+      <constraint>
+        <key value="inv-dh-medreq-01"/>
+        <severity value="error"/>
+        <human value="At least reference or a valid identifier shall be present"/>
+        <expression value="reference.exists() or identifier.where(system.count() + value.count() &gt;1).exists()"/>
+        <xpath value="exists(f:reference) or exists(f:identifier)"/>
+        <source value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medicationrequest-pbs-claim-1"/>
+      </constraint>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.authoredOn">
+      <path value="MedicationRequest.authoredOn"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.dispenseRequest">
+      <path value="MedicationRequest.dispenseRequest"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.dispenseRequest.numberOfRepeatsAllowed">
+      <path value="MedicationRequest.dispenseRequest.numberOfRepeatsAllowed"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="MedicationRequest.dispenseRequest.quantity">
+      <path value="MedicationRequest.dispenseRequest.quantity"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
+    </element>
+  </differential>
+</StructureDefinition>

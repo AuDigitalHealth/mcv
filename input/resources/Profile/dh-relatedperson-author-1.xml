@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="dh-relatedperson-author-1" />
+  <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-author-1" />
+  <version value="1.0.0" />
+  <name value="ADHARelatedPersonAuthor" />
+  <title value="ADHA Authoring RelatedPerson" />
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Australian Digital Health Agency" />
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="help@digitalhealth.gov.au"/>
+    </telecom>
+  </contact>
+  <description value="The purpose of this profile is to define a representation of a related person in the role of an author or observer for exchange usage scenarios to support the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia." />
+  <copyright value="Copyright © 2022 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/." />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="RelatedPerson" />
+  <baseDefinition value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-core-1" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="RelatedPerson">
+      <path value="RelatedPerson" />
+      <constraint>
+        <key value="inv-dh-relper-03"/>
+        <severity value="error"/>
+        <human value="At least one related person name shall have a family name"/>
+        <expression value="name.family.exists()"/>
+        <xpath value="exists(f:name/f:family)"/>
+        <source
+          value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-author-1"
+        />
+      </constraint>
+    </element>
+    <element id="RelatedPerson.identifier">
+      <path value="RelatedPerson.identifier" />
+      <min value="1"/>
+    </element>
+    <element id="RelatedPerson.name">
+      <path value="RelatedPerson.name"/>
+      <min value="1"/>
+    </element>
+    <element id="RelatedPerson.telecom">
+      <path value="RelatedPerson.telecom"/>
+      <min value="1"/>
+    </element>
+  </differential>
+</StructureDefinition>

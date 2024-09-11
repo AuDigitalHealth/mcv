@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Encounter xmlns="http://hl7.org/fhir">
+    <id value="psml-03"/>
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-encounter-core-1"/>
+    </meta>
+    <status value="finished"/>
+    <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+        <code value="AMB"/>
+        <display value="ambulatory"/>
+    </class>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="1348961000168104"/>
+            <display value="Community pharmacy medicines review"/>
+        </coding>
+        <text value="Community pharmacy medicine review"/>
+    </type>
+    <serviceType>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="182836005"/>
+            <display value="Review of medication"/>
+        </coding>
+        <text value="Medicines review"/>
+    </serviceType>
+    <subject>
+        <!--relative reference to Patient resource-->
+        <reference value="Patient/hi-testdata-priest-mac"/>
+        <identifier>
+            <type>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                    <code value="NI"/>
+                    <display value="National unique individual identifier"/>
+                </coding>
+                <text value="IHI"/>
+            </type>
+            <system value="http://ns.electronichealth.net.au/id/hi/ihi/1.0"/>
+            <value value="8003608333563104"/>
+        </identifier>
+    </subject>
+    <participant>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                <code value="PPRF"/>
+                <display value="primary performer"/>
+            </coding>
+        </type>
+        <individual>
+            <!--relative reference to PractitionerRole resource-->
+            <reference value="PractitionerRole/pharmacist-retail"/>
+        </individual>
+    </participant>
+    <period>
+        <start value="2018-12-11T10:00:00+10:00"/>
+        <end value="2018-12-11T13:30:00+10:00"/>
+    </period>
+</Encounter>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition xmlns="http://hl7.org/fhir">
+    <id value="uti-es-02"/>
+    <meta>
+        <profile value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-core-1"/>
+    </meta>
+    <clinicalStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="active"/>
+            <display value="Active"/>
+        </coding>
+    </clinicalStatus>
+    <verificationStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+            <code value="confirmed"/>
+            <display value="Confirmed"/>
+        </coding>
+    </verificationStatus>
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="problem-list-item"/>
+            <display value="Problem List Item"/>
+        </coding>
+    </category>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="68566005"/>
+            <display value="Urinary tract infection"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/mhr-zhang-wei"/>
+        <identifier>
+            <type>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                    <code value="NI"/>
+                    <display value="National unique individual identifier"/>
+                </coding>
+                <text value="IHI"/>
+            </type>
+            <system value="http://ns.electronichealth.net.au/id/hi/ihi/1.0"/>
+            <value value="8003608000228437"/>
+        </identifier>
+    </subject>
+    <encounter>
+        <reference value="Encounter/es-02"/>
+    </encounter>
+    <onsetDateTime value="2020-05-10"/>
+    <recorder>
+        <reference value="PractitionerRole/algrester-greg-gp"/>
+    </recorder>
+    <asserter>
+        <reference value="PractitionerRole/algrester-greg-gp"/>
+    </asserter>
+</Condition>

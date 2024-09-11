@@ -1,4 +1,3 @@
-
 {% include nonnormative-example-boilerplate.md %}
 
 <!-- ================================================ -->
