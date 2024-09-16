@@ -7,7 +7,7 @@
   <url value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-requester"/>
   <name value="MHRGWRequester"/>
   <title value="MHR Gateway Requester"/>
-  <status value="draft"/>
+  <status value="active"/>
   <description
     value="The MHR Gateway Requester is a system that creates and initiates a data access request to retrieve or update information using the MHR FHIR Gateway."/>
   <type value="system"/>

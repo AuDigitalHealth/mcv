@@ -14,7 +14,7 @@
   <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-mhr-allergyintolerance-detailed-type-1"/>
   <name value="DHAllergyIntoleranceDetailedType"/>
   <title value="MHR AllergyIntolerance Detailed Type"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
     <contact>

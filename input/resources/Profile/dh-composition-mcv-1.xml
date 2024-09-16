@@ -4,7 +4,7 @@
   <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-composition-mcv-1"/>
   <name value="MHRCompositionDocumentMCV"/>
   <title value="MHR Medical Conditions View Document Composition"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
   <contact>

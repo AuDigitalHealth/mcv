@@ -1,7 +1,6 @@
 ### Version = 1.2.0
-- Publication date: DD MMM 2024
+- Publication date: 30 September 2024
 - Publication status: Approved for external use
-- url: <http://ns.electronichealth.net.au/fhir/ImplementationGuide/au.digitalhealth.r4/1.2.0>
 - Based on FHIR version: 4.0.1
 
 This version is developed for the Medical Conditions View project.
@@ -19,6 +18,20 @@ Profiles added:
 - profile MHR Medical Conditions View Procedure
 - profile MHR Medical Conditions View Provenance
 - profile MHR Patient 
+- profile ADHA Patient Emergency Contact
+
+Profiles derived from au-fhir-core
+
+- profile ADHA Core Condition
+- profile ADHA Core Encounter
+- profile ADHA Core Immunization
+- profile ADHA Core Location
+- profile ADHA Core Medication
+- profile ADHA Core MedicationRequest
+- profile ADHA Core Organization
+- profile ADHA Core Patient
+- profile ADHA Core Practitioner
+- profile ADHA Core PractitionerRole
 
 Actor Defintions added:
 

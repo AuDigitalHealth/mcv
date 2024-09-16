@@ -7,7 +7,7 @@
   <url value="http://ns.electronichealth.net.au/fhir/ActorDefinition/mhr-gw-actor-responder"/>
   <name value="MHRGWResponder"/>
   <title value="MHR Gateway Responder"/>
-  <status value="draft"/>
+  <status value="active"/>
   <description
     value="The MHR Gateway Responder is a system responsible for providing responses to queries submitted by MHR Gateway Requesters."/>
   <type value="system"/>

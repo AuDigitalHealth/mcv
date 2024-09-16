@@ -4,7 +4,7 @@
   <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-explanationofbenefit-mcv-1"/>
   <name value="MHRExplanationofBenefitMCV"/>
   <title value="MHR Medical Conditions View Explanation of Benefit"/>
-  <status value="draft"/>
+  <status value="active"/>
   <publisher value="Australian Digital Health Agency"/>
   <contact>
     <telecom>

@@ -4,7 +4,7 @@
   <url value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-mcv-1"/>
   <name value="MHRObservationMCV"/>
   <title value="MHR Medical Conditions View Observation"/>
-  <status value="draft"/>
+  <status value="active"/>
   <publisher value="Australian Digital Health Agency"/>
   <contact>
     <telecom>
