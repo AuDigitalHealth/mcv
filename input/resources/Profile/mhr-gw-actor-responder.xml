@@ -13,5 +13,4 @@
   <type value="system"/>
   <documentation value="A MHR Gateway Responder:&#xa;&#xa;
 - TBD."/>
-  <capabilities value="TBD"/>
 </ActorDefinition>

@@ -5,7 +5,7 @@
         <coding>
             <system value="http://snomed.info/sct"/>
             <code value="21885011000036105"/>
-            <display value="Ibuprofen"/>
+            <display value="ibuprofen"/>
         </coding>
         <coding>
             <system value="http://pbs.gov.au/code/item"/>

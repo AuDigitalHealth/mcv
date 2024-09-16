@@ -94,8 +94,8 @@
       <condition value="inv-dh-enc-02"/>
       <mustSupport value="true"/>
     </element>
-    <element id="Encounter.reasonReference[x]">
-      <path value="Encounter.reasonReference[x]"/>
+    <element id="Encounter.reasonReference">
+      <path value="Encounter.reasonReference"/>
       <type>
         <code value="Reference"/>
         <targetProfile

@@ -1,5 +1,3 @@
-The purpose of this profile is to provide a core representation of a procedure for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia.
-
 This profile identifies the additional constraints, extensions, and value sets that build on and extend [Procedure](http://hl7.org/fhir/R4/procedure.html) that are supported. 
 
 This profile is designed to set a core Procedure standard for:
@@ -14,9 +12,3 @@ This profile is designed to set a core Procedure standard for:
   - Although both are marked as must support, sending systems are not required to support both a code and a reference, but they **SHALL** support *at least one* of these elements.
   - A receiving or persisting system **SHALL** support both elements.
 - A procedure including an implantable device should use `Procedure.focalDevice` with a reference to a Device resource.
-
-#### Boundaries and relationships
-This profile is referenced by 
-[ADHA Core Encounter](StructureDefinition-dh-encounter-core-1.html), 
-[ADHA Core Flag](StructureDefinition-dh-flag-core-1.html), and 
-[ADHA Core Procedure](StructureDefinition-dh-procedure-core-1.html). 

@@ -32,7 +32,7 @@
             <coding>
                 <system value="http://snomed.info/sct"/>
                 <code value="21433011000036107"/>
-                <display value="Paracetamol"/>
+                <display value="paracetamol"/>
             </coding>
         </itemCodeableConcept>
         <strength>

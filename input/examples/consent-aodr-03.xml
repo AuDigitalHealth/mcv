@@ -85,7 +85,7 @@
 				<coding>
 					<system value="http://snomed.info/sct"/>
 					<code value="17401000"/>
-					<display value="Heart valve structure"/>
+					<display value="Cardiac valve"/>
 				</coding>
 			</location>
 			<patient>
@@ -160,7 +160,7 @@
 				<coding>
 					<system value="http://snomed.info/sct"/>
 					<code value="39607008"/>
-					<display value="Lung structure"/>
+					<display value="Lung"/>
 				</coding>
 			</location>
 			<patient>
@@ -210,7 +210,7 @@
 				<coding>
 					<system value="http://snomed.info/sct"/>
 					<code value="39937001"/>
-					<display value="Skin structure"/>
+					<display value="Skin"/>
 				</coding>
 			</location>
 			<patient>

@@ -404,6 +404,7 @@
             <reference>
                 <reference value="StructureDefinition/dh-relatedperson-core-1"/>
             </reference>
+            <description value="ADHA Core RelatedPerson"/>
             <name value="ADHA Core RelatedPerson"/>
             <description
                 value="The purpose of this profile is to provide a core representation of a related person for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia. In the context of an exchange of health information a related person is part of the context established for a set of healthcare-related information."/>
@@ -413,6 +414,7 @@
             <reference>
                 <reference value="StructureDefinition/dh-substance-core-1"/>
             </reference>
+            <description value="ADHA Core Substance"/>
             <name value="ADHA Core Substance"/>
             <description
                 value="The purpose of this profile is to provide a core representation of a substance for the electronic exchange of health information between individuals, healthcare providers, and the My Health Record system infrastructure in Australia."/>
@@ -424,6 +426,7 @@
             <reference>
                 <reference value="BodyStructure/left-knee"/>
             </reference>
+            <description value="Left Knee of Cleo Moss Esq."/>
             <name value="Left Knee of Cleo Moss Esq."/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-core-1"
@@ -433,6 +436,7 @@
             <reference>
                 <reference value="BodyStructure/right-knee"/>
             </reference>
+            <description value="Right Knee of Cleo Moss Esq."/>
             <name value="Right Knee of Cleo Moss Esq."/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-core-1"
@@ -442,6 +446,7 @@
             <reference>
                 <reference value="BodyStructure/bone"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Bone structure as part of aodr-02"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Bone structure as part of aodr-02"/>
             <exampleCanonical
@@ -452,6 +457,7 @@
             <reference>
                 <reference value="BodyStructure/bone-02"/>
             </reference>
+            <description value="Bone structure as part of aodr-02"/>
             <name value="Bone structure as part of aodr-02"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -461,6 +467,7 @@
             <reference>
                 <reference value="BodyStructure/bone-03"/>
             </reference>
+            <description value="Bone structure"/>
             <name value="Bone structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -470,6 +477,7 @@
             <reference>
                 <reference value="BodyStructure/eye"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Eye structure"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Eye structure"/>
             <exampleCanonical
@@ -480,6 +488,7 @@
             <reference>
                 <reference value="BodyStructure/eye-02"/>
             </reference>
+            <description value="Fisrt example for eye structure"/>
             <name value="Eye structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -489,7 +498,8 @@
             <reference>
                 <reference value="BodyStructure/eye-03"/>
             </reference>
-            <name value="Eye structure"/>
+            <description value="Second example for eye structure"/>
+            <name value="Second example for eye structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
             />
@@ -498,6 +508,7 @@
             <reference>
                 <reference value="BodyStructure/skin"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Skin structure"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Skin structure"/>
             <exampleCanonical
@@ -508,6 +519,7 @@
             <reference>
                 <reference value="BodyStructure/skin-02"/>
             </reference>
+            <description value="Skin structure exam,example 1"/>
             <name value="Skin structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -517,6 +529,7 @@
             <reference>
                 <reference value="BodyStructure/skin-03"/>
             </reference>
+            <description value="Skin structure exam,example 2"/>
             <name value="Skin structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -526,6 +539,7 @@
             <reference>
                 <reference value="BodyStructure/heart"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Structure of heart"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Structure of heart"/>
             <exampleCanonical
@@ -536,6 +550,7 @@
             <reference>
                 <reference value="BodyStructure/heart-02"/>
             </reference>
+            <description value="Structure of heart example 1"/>
             <name value="Structure of heart"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -545,6 +560,7 @@
             <reference>
                 <reference value="BodyStructure/heart-03"/>
             </reference>
+            <description value="Structure of heart example 2"/>
             <name value="Structure of heart"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -554,6 +570,7 @@
             <reference>
                 <reference value="BodyStructure/heart-valve"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Heart valve structure"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Heart valve structure"/>
             <exampleCanonical
@@ -564,6 +581,7 @@
             <reference>
                 <reference value="BodyStructure/heart-valve-02"/>
             </reference>
+            <description value="Heart valve structure example 1"/>
             <name value="Heart valve structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -573,6 +591,7 @@
             <reference>
                 <reference value="BodyStructure/heart-valve-03"/>
             </reference>
+            <description value="Heart valve structure example 2"/>
             <name value="Heart valve structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -582,6 +601,7 @@
             <reference>
                 <reference value="BodyStructure/pancreas"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Pancreatic structure"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Pancreatic structure"/>
             <exampleCanonical
@@ -592,6 +612,7 @@
             <reference>
                 <reference value="BodyStructure/pancreas-02"/>
             </reference>
+            <description value="Pancreatic structure example 1"/>
             <name value="Pancreatic structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -601,6 +622,7 @@
             <reference>
                 <reference value="BodyStructure/pancreas-03"/>
             </reference>
+            <description value="Pancreatic structure example 2"/>
             <name value="Pancreatic structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -610,6 +632,7 @@
             <reference>
                 <reference value="BodyStructure/kidney"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Kidney structure"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Kidney structure"/>
             <exampleCanonical
@@ -620,6 +643,7 @@
             <reference>
                 <reference value="BodyStructure/kidney-02"/>
             </reference>
+            <description value="Kidney structure example 1"/>
             <name value="Kidney structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -629,6 +653,7 @@
             <reference>
                 <reference value="BodyStructure/kidney-03"/>
             </reference>
+            <description value="Kidney structure example 2"/>
             <name value="Kidney structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -638,6 +663,7 @@
             <reference>
                 <reference value="BodyStructure/liver"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Liver structure"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Liver structure"/>
             <exampleCanonical
@@ -648,6 +674,7 @@
             <reference>
                 <reference value="BodyStructure/liver-02"/>
             </reference>
+            <description value="Liver structure example 1"/>
             <name value="Liver structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -657,6 +684,7 @@
             <reference>
                 <reference value="BodyStructure/liver-03"/>
             </reference>
+            <description value="Liver structure example 2"/>
             <name value="Liver structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -666,6 +694,7 @@
             <reference>
                 <reference value="BodyStructure/lungs"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Lung structure"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715: Lung structure"/>
             <exampleCanonical
@@ -676,6 +705,7 @@
             <reference>
                 <reference value="BodyStructure/lungs-02"/>
             </reference>
+            <description value="Lung structure example 1"/>
             <name value="Lung structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -685,6 +715,7 @@
             <reference>
                 <reference value="BodyStructure/lungs-03"/>
             </reference>
+            <description value="Lung structure example 2"/>
             <name value="Lung structure"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bodystructure-aodr-1"
@@ -695,6 +726,7 @@
             <reference>
                 <reference value="Condition/wound-es-01"/>
             </reference>
+            <description value="Nail wound of sole of foot for Billy Tjakamarra - Nail wound of sole of foot encounter (2017)"/>
             <name
                 value="Nail wound of sole of foot for Billy Tjakamarra - Nail wound of sole of foot encounter (2017)"/>
             <exampleCanonical
@@ -705,6 +737,7 @@
             <reference>
                 <reference value="Condition/uti-es-02"/>
             </reference>
+            <description value="Urinary tract infection for Mr Zhang Wei - follow up encounter (2020)"/>
             <name value="Urinary tract infection for Mr Zhang Wei - follow up encounter (2020)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-condition-core-1"
@@ -715,6 +748,7 @@
             <reference>
                 <reference value="Bundle/air-01"/>
             </reference>
+            <description value="Payload Bundle of Australian Immunisation Register for Patient Sally FIELD generated by MHR system (28 MARCH 2022)"/>
             <name
                 value="Payload Bundle of Australian Immunisation Register for Patient Sally FIELD generated by MHR system (28 MARCH 2022)"/>
             <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
@@ -723,6 +757,7 @@
             <reference>
                 <reference value="Bundle/air-02"/>
             </reference>
+            <description value="Bundle from Medicare Repository to MHR system of the set of resources that make up the AIR for Patient with IHI 8003608000216028"/>
             <name
                 value="Bundle from Medicare Repository to MHR system of the set of resources that make up the AIR for Patient with IHI 8003608000216028"/>
             <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
@@ -731,6 +766,7 @@
             <reference>
                 <reference value="Bundle/air-03"/>
             </reference>
+            <description value="Bundle from Medicare Repository to MHR system of the set of resources that make up the AIR for Patient Sally FIELD"/>
             <name
                 value="Bundle from Medicare Repository to MHR system of the set of resources that make up the AIR for Patient Sally FIELD"/>
             <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
@@ -739,6 +775,7 @@
             <reference>
                 <reference value="Bundle/mds"/>
             </reference>
+            <description value="R4 conversion of MDS test data Bundle.id cb7921cb-ba17-11ec-833a-b1763b0a7715"/>
             <name
                 value="R4 conversion of MDS test data Bundle.id cb7921cb-ba17-11ec-833a-b1763b0a7715"/>
             <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
@@ -747,6 +784,7 @@
             <reference>
                 <reference value="Bundle/vpr-01"/>
             </reference>
+            <description value="Patient's registered GP practice"/>
             <name value="Patient's registered GP practice"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bundle-payload-1"
@@ -756,6 +794,7 @@
             <reference>
                 <reference value="Bundle/vpr-02"/>
             </reference>
+            <description value="Patient's registered GP practice and practitioner name"/>
             <name value="Patient's registered GP practice and practitioner name"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bundle-payload-1"
@@ -766,6 +805,7 @@
             <reference>
                 <reference value="Consent/aodr-01"/>
             </reference>
+            <description value="Australian Organ Donor Register Consent - Not willing to be a donor"/>
             <name value="Australian Organ Donor Register Consent - Not willing to be a donor"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-consent-aodr-1"
@@ -775,6 +815,7 @@
             <reference>
                 <reference value="Consent/aodr-02"/>
             </reference>
+            <description value="Australian Organ Donor Register Consent - Willing to be a donor, donate all"/>
             <name
                 value="Australian Organ Donor Register Consent - Willing to be a donor, donate all"/>
             <exampleCanonical
@@ -785,6 +826,7 @@
             <reference>
                 <reference value="Consent/aodr-03"/>
             </reference>
+            <description value="Australian Organ Donor Register Consent - Willing to be a donor, donate specific tissue / organ"/>
             <name
                 value="Australian Organ Donor Register Consent - Willing to be a donor, donate specific tissue / organ"/>
             <exampleCanonical
@@ -795,6 +837,7 @@
             <reference>
                 <reference value="Consent/mds"/>
             </reference>
+            <description value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715"/>
             <name
                 value="R4 transform of the MDS test data Consent.id a008d446-ba17-11ec-833a-b1763b0a7715"/>
             <exampleCanonical
@@ -806,6 +849,7 @@
             <reference>
                 <reference value="Device/medicare-rs-01"/>
             </reference>
+            <description value="Medicare repository service"/>
             <name value="Medicare repository service"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-device-system-1"
@@ -815,6 +859,7 @@
             <reference>
                 <reference value="Device/mhr-01"/>
             </reference>
+            <description value="My Health Record system"/>
             <name value="My Health Record system"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-device-system-1"
@@ -833,6 +878,7 @@
             <reference>
                 <reference value="DocumentReference/air-01"/>
             </reference>
+            <description value="Metadata for Australian Immunisation Register record.identifier 475db616-dfd5-43f3-b935-9f582233a38d"/>
             <name
                 value="Metadata for Australian Immunisation Register record.identifier 475db616-dfd5-43f3-b935-9f582233a38d"/>
             <exampleCanonical
@@ -843,6 +889,7 @@
             <reference>
                 <reference value="DocumentReference/documentreference-mbs-01"/>
             </reference>
+            <description value="Metadata for Medicare Benefits Report record.identifier a7b64195-3553-4708-957e-04d571c7db92 (mbs-01)"/>
             <name
                 value="Metadata for Medicare Benefits Report record.identifier a7b64195-3553-4708-957e-04d571c7db92 (mbs-01)"/>
             <exampleCanonical
@@ -853,6 +900,7 @@
             <reference>
                 <reference value="DocumentReference/mbs-02"/>
             </reference>
+            <description value="Metadata for Medicare Benefits Report record.identifier 79a8b5a5-1631-4eec-b031-815156c9a47b (mbs-02)"/>
             <name
                 value="Metadata for Medicare Benefits Report record.identifier 79a8b5a5-1631-4eec-b031-815156c9a47b (mbs-02)"/>
             <exampleCanonical
@@ -863,6 +911,7 @@
             <reference>
                 <reference value="DocumentReference/pbs-01"/>
             </reference>
+            <description value="Metadata for Pharmaceutical Benefits Report record.identifier 296dcbd7-d763-4ecf-aa78-523bcc11ecda (pbs-01)"/>
             <name
                 value="Metadata for Pharmaceutical Benefits Report record.identifier 296dcbd7-d763-4ecf-aa78-523bcc11ecda (pbs-01)"/>
             <exampleCanonical
@@ -873,6 +922,7 @@
             <reference>
                 <reference value="DocumentReference/pbs-02"/>
             </reference>
+            <description value="Metadata for Pharmaceutical Benefits Report record.identifier 73f7a30b-add3-4673-a4e9-65b0d8670a36 (pbs-02)"/>
             <name
                 value="Metadata for Pharmaceutical Benefits Report record.identifier 73f7a30b-add3-4673-a4e9-65b0d8670a36 (pbs-02)"/>
             <exampleCanonical
@@ -884,6 +934,7 @@
             <reference>
                 <reference value="Encounter/annual-01"/>
             </reference>
+            <description value="Annual check up for Ms. Sally FIELD (2022)"/>
             <name value="Annual check up for Ms. Sally FIELD (2022)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-encounter-core-1"
@@ -893,6 +944,7 @@
             <reference>
                 <reference value="Encounter/psml-02"/>
             </reference>
+            <description value="Community pharmacy medicine review for Mac PRIEST (2018) example 1"/>
             <name value="Community pharmacy medicine review for Mac PRIEST (2018)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-encounter-core-1"
@@ -902,6 +954,7 @@
             <reference>
                 <reference value="Encounter/psml-03"/>
             </reference>
+            <description value="Community pharmacy medicine review for Mac PRIEST (2018) example 2"/>
             <name value="Community pharmacy medicine review for Mac PRIEST (2018)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-encounter-core-1"
@@ -911,6 +964,7 @@
             <reference>
                 <reference value="Encounter/es-01"/>
             </reference>
+            <description value="Nail wound of sole of foot for Billy Tjakamarra (2017)"/>
             <name value="Nail wound of sole of foot for Billy Tjakamarra (2017)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-encounter-core-1"
@@ -920,6 +974,7 @@
             <reference>
                 <reference value="Encounter/es-02"/>
             </reference>
+            <description value="Follow-Up Encounter for Mr Zhang Wei (2020)"/>
             <name value="Follow-Up Encounter for Mr Zhang Wei (2020)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-encounter-core-1"
@@ -940,6 +995,7 @@
             <reference>
                 <reference value="ExplanationOfBenefit/mbs-02"/>
             </reference>
+            <description value="Record of Claim against MBS for 30185 removal of palmar or plantar warts for Ms. Sally Field"/>
             <name
                 value="Record of Claim against MBS for 30185 removal of palmar or plantar warts for Ms. Sally Field"/>
             <exampleCanonical
@@ -950,6 +1006,7 @@
             <reference>
                 <reference value="ExplanationOfBenefit/mbs-03"/>
             </reference>
+            <description value="Record of Claim against MBS for 30191 removal of palmar or plantar warts for Ms. Sally Field"/>
             <name
                 value="Record of Claim against MBS for 30191 removal of palmar or plantar warts for Ms. Sally Field"/>
             <exampleCanonical
@@ -960,6 +1017,7 @@
             <reference>
                 <reference value="ExplanationOfBenefit/mbs-mds"/>
             </reference>
+            <description value="R4 conversion of STU3 PBS MDS test data (missing data asserted with data absent extension)"/>
             <name
                 value="R4 conversion of STU3 PBS MDS test data (missing data asserted with data absent extension)"/>
             <exampleCanonical
@@ -970,6 +1028,7 @@
             <reference>
                 <reference value="ExplanationOfBenefit/pbs-mds"/>
             </reference>
+            <description value="R4 conversion of STU3 MBS MDS test data (missing data asserted with data absent extension)"/>
             <name
                 value="R4 conversion of STU3 MBS MDS test data (missing data asserted with data absent extension)"/>
             <exampleCanonical
@@ -980,6 +1039,18 @@
             <reference>
                 <reference value="ExplanationOfBenefit/pbs-cont-01"/>
             </reference>
+            <description value="Record of Claim against PBS for 03119E cephalexin 500 mg capsule, 20 for Ms. Sally Field 16 FEB 2020 example 1"/>
+            <name
+                value="Record of Claim against PBS for 03119E cephalexin 500 mg capsule, 20 for Ms. Sally Field 16 FEB 2020"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-explanationofbenefit-medicare-pbs-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ExplanationOfBenefit/pbs-cont-02"/>
+            </reference>
+            <description value="Record of Claim against PBS for 03119E cephalexin 500 mg capsule, 20 for Ms. Sally Field 16 FEB 2020 example 2"/>
             <name
                 value="Record of Claim against PBS for 03119E cephalexin 500 mg capsule, 20 for Ms. Sally Field 16 FEB 2020"/>
             <exampleCanonical
@@ -991,6 +1062,7 @@
             <reference>
                 <reference value="Flag/air-01"/>
             </reference>
+            <description value="Australian Immunisation Register notice: Medical contraindication"/>
             <name value="Australian Immunisation Register notice: Medical contraindication"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-air-1"/>
@@ -999,6 +1071,7 @@
             <reference>
                 <reference value="Flag/air-02"/>
             </reference>
+            <description value="Australian Immunisation Register notice: Natural immunity"/>
             <name value="Australian Immunisation Register notice: Natural immunity"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-air-1"/>
@@ -1007,6 +1080,7 @@
             <reference>
                 <reference value="Flag/air-03"/>
             </reference>
+            <description value="Australian Immunisation Register notice: Natural immunity"/>               
             <name value="Australian Immunisation Register notice: Natural immunity"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-flag-air-1"/>
@@ -1016,6 +1090,7 @@
             <reference>
                 <reference value="HealthcareService/hi-testdata-racs"/>
             </reference>
+            <description value="Test Org -DigitalHealth 1 Residential Aged Care Service FREMANTLE"/>
             <name value="Test Org -DigitalHealth 1 Residential Aged Care Service FREMANTLE"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1025,6 +1100,7 @@
             <reference>
                 <reference value="HealthcareService/hi-testdata-physiotherapy"/>
             </reference>
+            <description value="Test Org -DigitalHealth 3 Physiotherapy"/>
             <name value="Test Org -DigitalHealth 3 Physiotherapy"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1034,6 +1110,7 @@
             <reference>
                 <reference value="HealthcareService/hi-testdata-optical"/>
             </reference>
+            <description value="Test Org -DigitalHealth 4 Optical"/>
             <name value="Test Org -DigitalHealth 4 Optical"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1043,6 +1120,7 @@
             <reference>
                 <reference value="HealthcareService/hi-testdata-dental"/>
             </reference>
+            <description value="Test Org -DigitalHealth 5 Dental"/>
             <name value="Test Org -DigitalHealth 5 Dental"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1052,6 +1130,7 @@
             <reference>
                 <reference value="HealthcareService/hi-testdata-pharmacy"/>
             </reference>
+            <description value="Test Org -DigitalHealth 6 Pharmacy"/>
             <name value="Test Org -DigitalHealth 6 Pharmacy"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1061,6 +1140,7 @@
             <reference>
                 <reference value="HealthcareService/algrester-medical-centre"/>
             </reference>
+            <description value="Algregster Medical Centre"/>
             <name value="Algregster Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1070,6 +1150,7 @@
             <reference>
                 <reference value="HealthcareService/avg-canberra-medical-centre"/>
             </reference>
+            <description value="Average Canberra Medical Centre"/>
             <name value="Average Canberra Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1079,6 +1160,7 @@
             <reference>
                 <reference value="HealthcareService/large-allied-chemists-nsw-01"/>
             </reference>
+            <description value="Large Allied Chemists Limited Randwick NSW"/>
             <name value="Large Allied Chemists Limited Randwick NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1088,6 +1170,7 @@
             <reference>
                 <reference value="HealthcareService/large-allied-chemists-qld-01"/>
             </reference>
+            <description value="Large Allied Chemists Limited Sunnybank QLD"/>
             <name value="Large Allied Chemists Limited Sunnybank QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1097,6 +1180,7 @@
             <reference>
                 <reference value="HealthcareService/medium-vic-medical-clinic"/>
             </reference>
+            <description value="Medium Sized Medical Clinic"/>
             <name value="Medium Sized Medical Clinic"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1106,6 +1190,7 @@
             <reference>
                 <reference value="HealthcareService/metro-nsw-path-lab"/>
             </reference>
+            <description value="Metropolitan Laboratories Sydney"/>
             <name value="Metropolitan Laboratories Sydney"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1115,6 +1200,7 @@
             <reference>
                 <reference value="HealthcareService/metro-qld-path-lab"/>
             </reference>
+            <description value="Metropolitan Pathology QLD"/>
             <name value="Metropolitan Pathology QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1124,6 +1210,7 @@
             <reference>
                 <reference value="HealthcareService/qld-hospital-pharmacy-in"/>
             </reference>
+            <description value="Inpatient Pharmacy QLD Hospital"/>
             <name value="Inpatient Pharmacy QLD Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1133,6 +1220,7 @@
             <reference>
                 <reference value="HealthcareService/qld-hospital-pharmacy-out"/>
             </reference>
+            <description value="Friends Pharmacy QLD Hospital"/>
             <name value="Friends Pharmacy QLD Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1142,6 +1230,7 @@
             <reference>
                 <reference value="HealthcareService/territory-medical-centre"/>
             </reference>
+            <description value="Territory Medical Centre"/>
             <name value="Territory Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1151,6 +1240,7 @@
             <reference>
                 <reference value="HealthcareService/topend-medical-clinic"/>
             </reference>
+            <description value="Top End Medical Clinic"/>
             <name value="Top End Medical Clinic"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1160,6 +1250,7 @@
             <reference>
                 <reference value="HealthcareService/mssg-nsw-yerong-endo"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group Yerong NSW - Endocrinology services"/>
             <name value="Metropolitan Specialist Services Group Yerong NSW - Endocrinology services"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1169,6 +1260,7 @@
             <reference>
                 <reference value="HealthcareService/mssg-nsw-yerong-paedendo"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group Yerong NSW - Paediatric endocrinology services"/>
             <name
                 value="Metropolitan Specialist Services Group Yerong NSW - Paediatric endocrinology services"/>
             <exampleCanonical
@@ -1179,6 +1271,7 @@
             <reference>
                 <reference value="HealthcareService/mssg-nsw-hospital-radio"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group NSW Hospital - Radiology services"/>
             <name value="Metropolitan Specialist Services Group NSW Hospital - Radiology services"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1188,6 +1281,7 @@
             <reference>
                 <reference value="HealthcareService/mssg-qld-hospital-radio"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group QLD Hospital - Radiology services"/>
             <name value="Metropolitan Specialist Services Group QLD Hospital - Radiology services"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1197,6 +1291,7 @@
             <reference>
                 <reference value="HealthcareService/racs-nsw-01"/>
             </reference>
+            <description value="LARCSG Care Randwick Home for the Aged 120011"/>
             <name value="LARCSG Care Randwick Home for the Aged 120011"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
@@ -1206,7 +1301,18 @@
             <reference>
                 <reference value="HealthcareService/racs-qld-01"/>
             </reference>
+            <description value="LARCSG Care Sunnybank Home for the Aged 130011"/>
             <name value="LARCSG Care Sunnybank Home for the Aged 130011"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="HealthcareService/qld-hospital-pharmacy-imm"/>
+            </reference>
+            <description value="QLD Hospital Pharmacy for immunsation"/>
+            <name value="QLD Hospital Pharmacy for immunsation"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-healthcareservice-core-1"
             />
@@ -1216,6 +1322,7 @@
             <reference>
                 <reference value="Immunization/air-covid-01"/>
             </reference>
+            <description value="Record of Pfizer Comirnaty dose 1 for Ms. Sally Field from AIR"/>
             <name value="Record of Pfizer Comirnaty dose 1 for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1225,6 +1332,7 @@
             <reference>
                 <reference value="Immunization/air-covid-02"/>
             </reference>
+            <description value="Record of Pfizer Comirnaty dose 2 for Ms. Sally Field from AIR"/>
             <name value="Record of Pfizer Comirnaty dose 2 for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1234,6 +1342,7 @@
             <reference>
                 <reference value="Immunization/air-covid-03"/>
             </reference>
+            <description value="Record of Moderna Spikevax dose 3 for Ms. Sally Field from AIR"/>
             <name value="Record of Moderna Spikevax dose 3 for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1243,6 +1352,7 @@
             <reference>
                 <reference value="Immunization/air-dip-01"/>
             </reference>
+            <description value="Record of Infanrix Hexa at 2 months for Ms. Sally Field from AIR"/>
             <name value="Record of Infanrix Hexa at 2 months for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1252,6 +1362,7 @@
             <reference>
                 <reference value="Immunization/air-dip-02"/>
             </reference>
+            <description value="Record of Infanrix Hexa at 4 months for Ms. Sally Field from AIR"/>
             <name value="Record of Infanrix Hexa at 4 months for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1261,6 +1372,7 @@
             <reference>
                 <reference value="Immunization/air-dip-03"/>
             </reference>
+            <description value="Record of Infanrix Hexa at 6 months for Ms. Sally Field from AIR"/>
             <name value="Record of Infanrix Hexa at 6 months for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1270,6 +1382,7 @@
             <reference>
                 <reference value="Immunization/air-dip-04"/>
             </reference>
+            <description value="Record of Infanrix Hexa at 18 months for Ms. Sally Field from AIR"/>
             <name value="Record of Infanrix Hexa at 18 months for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1279,6 +1392,7 @@
             <reference>
                 <reference value="Immunization/air-dip-05"/>
             </reference>
+            <description value="Record of Infanrix Hexa at 4 years for Ms. Sally Field from AIR"/>
             <name value="Record of Infanrix Hexa at 4 years for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1288,6 +1402,7 @@
             <reference>
                 <reference value="Immunization/air-hepb-01"/>
             </reference>
+            <description value="Record of Engerix-B (paediatric) at birth for Ms. Sally Field from AIR"/>
             <name value="Record of Engerix-B (paediatric) at birth for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1297,6 +1412,7 @@
             <reference>
                 <reference value="Immunization/air-infl-01"/>
             </reference>
+            <description value="Record of Panvax in 2020 for Ms. Sally Field from AIR"/>
             <name value="Record of Panvax in 2020 for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1306,6 +1422,7 @@
             <reference>
                 <reference value="Immunization/air-infl-02"/>
             </reference>
+            <description value="Record of Panvax in 2021 for Ms. Sally Field from AIR (dose number with data absent extension)"/>
             <name
                 value="Record of Panvax in 2021 for Ms. Sally Field from AIR (dose number with data absent extension)"/>
             <exampleCanonical
@@ -1316,6 +1433,7 @@
             <reference>
                 <reference value="Immunization/air-infl-03"/>
             </reference>
+            <description value="Record of Panvax in 2022 for Ms. Sally Field from AIR"/>
             <name value="Record of Panvax in 2022 for Ms. Sally Field from AIR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1325,6 +1443,7 @@
             <reference>
                 <reference value="Immunization/air-infl-04"/>
             </reference>
+            <description value="Record of Panvax in 2019 for Patient with IHI 8003608000216028"/>
             <name value="Record of Panvax in 2019 for Patient with IHI 8003608000216028"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-air-1"
@@ -1334,6 +1453,7 @@
             <reference>
                 <reference value="Immunization/covid-01"/>
             </reference>
+            <description value="Administration of Pfizer Comirnaty dose 1 for Ms. Sally Field 17 June 2021"/>
             <name value="Administration of Pfizer Comirnaty dose 1 for Ms. Sally Field 17 June 2021"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-immunization-core-1"
@@ -1343,6 +1463,7 @@
             <reference>
                 <reference value="Immunization/covid-02"/>
             </reference>
+            <description value="Administration of Pfizer Comirnaty dose 2 for Ms. Sally Field 01 August 2021"/>
             <name
                 value="Administration of Pfizer Comirnaty dose 2 for Ms. Sally Field 01 August 2021"/>
             <exampleCanonical
@@ -1353,6 +1474,7 @@
             <reference>
                 <reference value="Immunization/covid-03"/>
             </reference>
+            <description value="Administration of Moderna Spikevax dose 3 for Ms. Sally Field 14 February 2022"/>
             <name
                 value="Administration of Moderna Spikevax dose 3 for Ms. Sally Field 14 February 2022"/>
             <exampleCanonical
@@ -1363,6 +1485,7 @@
             <reference>
                 <reference value="Immunization/mds"/>
             </reference>
+            <description value="R4 conversion of MDS test data Bundle.id cb7921cb-ba17-11ec-833a-b1763b0a7715"/>
             <name
                 value="R4 conversion of MDS test data Bundle.id cb7921cb-ba17-11ec-833a-b1763b0a7715"/>
             <exampleCanonical
@@ -1374,6 +1497,7 @@
             <reference>
                 <reference value="Location/algrester-medical-centre"/>
             </reference>
+            <description value="Gregory Tindal Building of Algregster Medical Centre"/>
             <name value="Gregory Tindal Building of Algregster Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1383,6 +1507,7 @@
             <reference>
                 <reference value="Location/avg-canberra-medical-centre"/>
             </reference>
+            <description value="Fancy Building of Average Canberra Medical Centre"/>
             <name value="Fancy Building of Average Canberra Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1392,6 +1517,7 @@
             <reference>
                 <reference value="Location/au-jurisdiction"/>
             </reference>
+            <description value="Jurisdiction of Australia"/>
             <name value="Jurisdiction of Australia"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1401,7 +1527,18 @@
             <reference>
                 <reference value="Location/hi-testdata-dental"/>
             </reference>
+            <description value="Provider's Office of Test Org -DigitalHealth 5"/>
             <name value="Provider's Office of Test Org -DigitalHealth 5"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Location/qld-hospital"/>
+            </reference>
+            <description value="Queensland hospital"/>
+            <name value="Queensland hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
             />
@@ -1410,6 +1547,7 @@
             <reference>
                 <reference value="Location/hi-testdata-pharmacy"/>
             </reference>
+            <description value="Pharmacy Building of Test Org -DigitalHealth 6"/>
             <name value="Pharmacy Building of Test Org -DigitalHealth 6"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1419,6 +1557,7 @@
             <reference>
                 <reference value="Location/hi-testdata-racs"/>
             </reference>
+            <description value="Site of Test Org -DigitalHealth 1"/>
             <name value="Site of Test Org -DigitalHealth 1"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1428,6 +1567,7 @@
             <reference>
                 <reference value="Location/large-allied-chemists"/>
             </reference>
+            <description value="Large Allied Chemists Limited Head Office"/>
             <name value="Large Allied Chemists Limited Head Office"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1437,6 +1577,7 @@
             <reference>
                 <reference value="Location/large-allied-chemists-nsw-01"/>
             </reference>
+            <description value="Large Allied Chemists Limited Randwick NSW"/>
             <name value="Large Allied Chemists Limited Randwick NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1446,6 +1587,7 @@
             <reference>
                 <reference value="Location/large-allied-chemists-nsw-02"/>
             </reference>
+            <description value="Large Allied Chemists Limited Bondi Junction NSW"/>
             <name value="Large Allied Chemists Limited Bondi Junction NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1455,6 +1597,7 @@
             <reference>
                 <reference value="Location/large-allied-chemists-nsw-03"/>
             </reference>
+            <description value="Large Allied Chemists Limited Tamworth NSW"/>
             <name value="Large Allied Chemists Limited Tamworth NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1464,6 +1607,7 @@
             <reference>
                 <reference value="Location/large-allied-chemists-qld-01"/>
             </reference>
+            <description value="Large Allied Chemists Limited Sunnybank QLD"/>
             <name value="Large Allied Chemists Limited Sunnybank QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1473,6 +1617,7 @@
             <reference>
                 <reference value="Location/large-allied-chemists-qld-02"/>
             </reference>
+            <description value="Large Allied Chemists Limited Toowong QLD example 1"/>
             <name value="Large Allied Chemists Limited Toowong QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1482,6 +1627,7 @@
             <reference>
                 <reference value="Location/large-allied-chemists-qld-03"/>
             </reference>
+            <description value="Large Allied Chemists Limited Toowoomba QLD example 2"/>
             <name value="Large Allied Chemists Limited Toowoomba QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1491,6 +1637,7 @@
             <reference>
                 <reference value="Location/large-racs-nsw-01"/>
             </reference>
+            <description value="LARCSG Care Randwick NSW"/>
             <name value="LARCSG Care Randwick NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1500,6 +1647,7 @@
             <reference>
                 <reference value="Location/large-racs-nsw-02"/>
             </reference>
+            <description value="LARCSG Care Bondi Junction NSW"/>
             <name value="LARCSG Care Bondi Junction NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1509,6 +1657,7 @@
             <reference>
                 <reference value="Location/large-racs-qld-01"/>
             </reference>
+            <description value="LARCSG Care Sunnybank QLD"/>
             <name value="LARCSG Care Sunnybank QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1518,6 +1667,7 @@
             <reference>
                 <reference value="Location/large-racs-qld-02"/>
             </reference>
+            <description value="LARCSG Care Toowong QLD"/>
             <name value="LARCSG Care Toowong QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1527,6 +1677,7 @@
             <reference>
                 <reference value="Location/metro-nsw-path-lab"/>
             </reference>
+            <description value="Building of Metropolitan Laboratories Sydney Randwick"/>
             <name value="Building of Metropolitan Laboratories Sydney Randwick"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1536,6 +1687,7 @@
             <reference>
                 <reference value="Location/metro-qld-path-lab"/>
             </reference>
+            <description value="Building of Metropolitan Pathology QLD DOOMBEN"/>
             <name value="Building of Metropolitan Pathology QLD DOOMBEN"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1545,6 +1697,7 @@
             <reference>
                 <reference value="Location/metro-specialist-services-group"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group Head Office"/>
             <name value="Metropolitan Specialist Services Group Head Office"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1554,6 +1707,7 @@
             <reference>
                 <reference value="Location/metro-specialist-services-group-qld-hospital"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group QLD Hospital"/>
             <name value="Metropolitan Specialist Services Group QLD Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1563,6 +1717,7 @@
             <reference>
                 <reference value="Location/metro-specialist-services-group-nsw-hospital"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group NSW Hospital"/>
             <name value="Metropolitan Specialist Services Group NSW Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1572,6 +1727,7 @@
             <reference>
                 <reference value="Location/metro-specialist-services-group-nsw-yerong"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group Yerongpilly NSW"/>
             <name value="Metropolitan Specialist Services Group Yerongpilly NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1581,6 +1737,7 @@
             <reference>
                 <reference value="Location/nsw-hospital"/>
             </reference>
+            <description value="NSW Hospital"/>
             <name value="NSW Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1590,16 +1747,8 @@
             <reference>
                 <reference value="Location/patient-home-01"/>
             </reference>
+            <description value="Patient Home"/>
             <name value="Patient Home"/>
-            <exampleCanonical
-                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
-            />
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Location/qld-hospital"/>
-            </reference>
-            <name value="QLD Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
             />
@@ -1608,6 +1757,7 @@
             <reference>
                 <reference value="Location/qld-hospital-pharmacy-in"/>
             </reference>
+            <description value="Pharmacy - QLD Hospital - Building 31 of QLD Hospital"/>
             <name value="Pharmacy - QLD Hospital - Building 31 of QLD Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1617,6 +1767,7 @@
             <reference>
                 <reference value="Location/qld-hospital-pharmacy-out"/>
             </reference>
+            <description value="Friends Pharmacy - QLD Hospital - Suite 14, Building 31 of QLD Hospital"/>
             <name value="Friends Pharmacy - QLD Hospital - Suite 14, Building 31 of QLD Hospital"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-location-core-1"
@@ -1627,6 +1778,7 @@
             <reference>
                 <reference value="Medication/aldara-01"/>
             </reference>
+            <description value="Aldara 5% cream"/>
             <name value="Aldara 5% cream"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1636,6 +1788,7 @@
             <reference>
                 <reference value="Medication/amiodarone-01"/>
             </reference>
+            <description value="Amiodarone 200mg tab"/>
             <name value="Amiodarone 200mg tab"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1645,6 +1798,7 @@
             <reference>
                 <reference value="Medication/amoxicillin-01"/>
             </reference>
+            <description value="Amoxicillin 875 mg + clavulanic acid 125 mg tablet, Augmentin Duo Forte"/>
             <name value="Amoxicillin 875 mg + clavulanic acid 125 mg tablet, Augmentin Duo Forte"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1654,6 +1808,7 @@
             <reference>
                 <reference value="Medication/amoxicillin-02"/>
             </reference>
+            <description value="Amoxicillin 875 mg + clavulanic acid 125 mg tablet, Augmentin Duo Forte (form + ingredient)"/>
             <name
                 value="Amoxicillin 875 mg + clavulanic acid 125 mg tablet, Augmentin Duo Forte (form + ingredient)"/>
             <exampleCanonical
@@ -1664,6 +1819,7 @@
             <reference>
                 <reference value="Medication/benpen-01"/>
             </reference>
+            <description value="Benpen 3 g powder for injection, 1 vial (fully coded medication information: brand name, generic name, item form and strength)"/>
             <name
                 value="Benpen 3 g powder for injection, 1 vial (fully coded medication information: brand name, generic name, item form and strength)"/>
             <exampleCanonical
@@ -1674,6 +1830,7 @@
             <reference>
                 <reference value="Medication/benpen-02"/>
             </reference>
+            <description value="Benpen 3 g powder for injection, 1 vial (partially coded medication information)"/>
             <name
                 value="Benpen 3 g powder for injection, 1 vial (partially coded medication information)"/>
             <exampleCanonical
@@ -1684,6 +1841,7 @@
             <reference>
                 <reference value="Medication/benpen-03"/>
             </reference>
+            <description value="Benpen 3 g powder for injection, 1 vial (text only incl brand and generic name)"/>
             <name
                 value="Benpen 3 g powder for injection, 1 vial (text only incl brand and generic name)"/>
             <exampleCanonical
@@ -1694,6 +1852,7 @@
             <reference>
                 <reference value="Medication/benzylpenicillin-01"/>
             </reference>
+            <description value="Benzylpenicillin 3 g injection, 1 vial (fully coded medication information: generic name, item form and strength)"/>
             <name
                 value="Benzylpenicillin 3 g injection, 1 vial (fully coded medication information: generic name, item form and strength)"/>
             <exampleCanonical
@@ -1704,6 +1863,7 @@
             <reference>
                 <reference value="Medication/bisoprolol-01"/>
             </reference>
+            <description value="Bisoprolol 2.5mg tab"/>
             <name value="Bisoprolol 2.5mg tab"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1713,6 +1873,7 @@
             <reference>
                 <reference value="Medication/cephalexin-01"/>
             </reference>
+            <description value="cephalexin 500 mg capsule, 20"/>
             <name value="cephalexin 500 mg capsule, 20"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1722,6 +1883,7 @@
             <reference>
                 <reference value="Medication/chloramphenicol-01"/>
             </reference>
+            <description value="Chloramphenicol 1% eye ointment"/>
             <name value="Chloramphenicol 1% eye ointment"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1731,6 +1893,7 @@
             <reference>
                 <reference value="Medication/chloramphenicol-02"/>
             </reference>
+            <description value="Chlorsig Chloramphenicol 1% eye drop"/>
             <name value="Chlorsig Chloramphenicol 1% eye drop"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1740,6 +1903,7 @@
             <reference>
                 <reference value="Medication/clarithromycin-01"/>
             </reference>
+            <description value="Clarithromycin 500mg Tablet (form + ingredient)"/>
             <name value="Clarithromycin 500mg Tablet (form + ingredient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1749,6 +1913,7 @@
             <reference>
                 <reference value="Medication/coq10-01"/>
             </reference>
+            <description value="CoQ10 150mg tab"/>
             <name value="CoQ10 150mg tab"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1758,6 +1923,7 @@
             <reference>
                 <reference value="Medication/docusate-01"/>
             </reference>
+            <description value="DOCUSATE SENNA (TAB) 50 mg"/>
             <name value="DOCUSATE SENNA (TAB) 50 mg"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1767,6 +1933,7 @@
             <reference>
                 <reference value="Medication/esomeprazole-01"/>
             </reference>
+            <description value="Esomeprazole 20mg Tablet (code + form + ingredient)"/>
             <name value="Esomeprazole 20mg Tablet (code + form + ingredient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1776,6 +1943,7 @@
             <reference>
                 <reference value="Medication/atorvastatin-01"/>
             </reference>
+            <description value="ATORVASTATIN LIPITOR"/>
             <name value="ATORVASTATIN LIPITOR"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1785,6 +1953,7 @@
             <reference>
                 <reference value="Medication/fluconazole-01"/>
             </reference>
+            <description value="Fluconazole (text + form + ingredient)"/>
             <name value="Fluconazole (text + form + ingredient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1794,6 +1963,7 @@
             <reference>
                 <reference value="Medication/ibuprofen-01"/>
             </reference>
+            <description value="Ibuprofen"/>
             <name value="Ibuprofen"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1803,6 +1973,7 @@
             <reference>
                 <reference value="Medication/ironsup-01"/>
             </reference>
+            <description value="Ferro-Grad C"/>
             <name value="Ferro-Grad C"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1812,6 +1983,7 @@
             <reference>
                 <reference value="Medication/metformin-01"/>
             </reference>
+            <description value="Metformin 500mg tablet, Sandoz"/>
             <name value="Metformin 500mg tablet, Sandoz"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1821,6 +1993,7 @@
             <reference>
                 <reference value="Medication/mmds"/>
             </reference>
+            <description value="R4 conversion of MDS test data ExplanationOfBenefit.id 9b28d09f-ba17-11ec-833a-b1763b0a7715"/>
             <name
                 value="R4 conversion of MDS test data ExplanationOfBenefit.id 9b28d09f-ba17-11ec-833a-b1763b0a7715"/>
             <exampleCanonical
@@ -1831,6 +2004,7 @@
             <reference>
                 <reference value="Medication/morphine-01"/>
             </reference>
+            <description value="Sevredol Morphine sulfate pentahydrate"/>
             <name value="Sevredol Morphine sulfate pentahydrate"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1840,6 +2014,7 @@
             <reference>
                 <reference value="Medication/multivitamins-01"/>
             </reference>
+            <description value="Multi-vitamins"/>
             <name value="Multi-vitamins"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1849,6 +2024,7 @@
             <reference>
                 <reference value="Medication/nexium-01"/>
             </reference>
+            <description value="Nexium Hp7 (14 x Nexium tablets, 28 x Amoxil capsules, 14 x Klacid tablets), 1 pack: multiple codings"/>
             <name
                 value="Nexium Hp7 (14 x Nexium tablets, 28 x Amoxil capsules, 14 x Klacid tablets), 1 pack: multiple codings"/>
             <exampleCanonical
@@ -1859,6 +2035,7 @@
             <reference>
                 <reference value="Medication/nexium-02"/>
             </reference>
+            <description value="Nexium Hp7 (14 x Nexium tablets, 28 x Amoxil capsules, 14 x Klacid tablets), 1 pack"/>
             <name
                 value="Nexium Hp7 (14 x Nexium tablets, 28 x Amoxil capsules, 14 x Klacid tablets), 1 pack"/>
             <exampleCanonical
@@ -1869,6 +2046,7 @@
             <reference>
                 <reference value="Medication/norvasc-01"/>
             </reference>
+            <description value="Norvasc tablet (form + ingredient)"/>
             <name value="Norvasc tablet (form + ingredient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1878,6 +2056,7 @@
             <reference>
                 <reference value="Medication/oxybutynin-01"/>
             </reference>
+            <description value="DITROPAN OXYBUTYNIN"/>
             <name value="DITROPAN OXYBUTYNIN"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1887,6 +2066,7 @@
             <reference>
                 <reference value="Medication/paracetamol-01"/>
             </reference>
+            <description value="Paracetamol 500 mg tablet"/>
             <name value="Paracetamol 500 mg tablet"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1896,6 +2076,7 @@
             <reference>
                 <reference value="Medication/paracetamol-02"/>
             </reference>
+            <description value="Panadol Osteo Paracetamol 665 mg modified release tablet"/>
             <name value="Panadol Osteo Paracetamol 665 mg modified release tablet"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1905,6 +2086,7 @@
             <reference>
                 <reference value="Medication/paracetamol-03"/>
             </reference>
+            <description value="Paracetamol 500mg (100) (form)"/>
             <name value="Paracetamol 500mg (100) (form)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1914,6 +2096,7 @@
             <reference>
                 <reference value="Medication/perindopril-arginine-01"/>
             </reference>
+            <description value="perindopril arginine 10 mg + amLODIPIne 10 mg – tablet"/>
             <name value="perindopril arginine 10 mg + amLODIPIne 10 mg – tablet"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1923,6 +2106,7 @@
             <reference>
                 <reference value="Medication/rampiril-01"/>
             </reference>
+            <description value="RAMIPRIL(TAB) 2.5 mg, Tritace (text only)"/>
             <name value="RAMIPRIL(TAB) 2.5 mg, Tritace (text only)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1932,6 +2116,7 @@
             <reference>
                 <reference value="Medication/stribild-01"/>
             </reference>
+            <description value="Stribild - tablet"/>
             <name value="Stribild - tablet"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"
@@ -1942,6 +2127,7 @@
             <reference>
                 <reference value="MedicationRequest/claim-pbs-01"/>
             </reference>
+            <description value="PBS claim item for cephalexin 500 mg capsule, 20 for Ms. Sally Field (pbs-01)"/>
             <name
                 value="PBS claim item for cephalexin 500 mg capsule, 20 for Ms. Sally Field (pbs-01)"/>
             <exampleCanonical
@@ -1952,6 +2138,7 @@
             <reference>
                 <reference value="MedicationRequest/claim-pbs-02"/>
             </reference>
+            <description value="PBS claim item for cephalexin 500 mg capsule, 20 for Ms. Sally Field (pbs-02)"/>
             <name
                 value="PBS claim item for cephalexin 500 mg capsule, 20 for Ms. Sally Field (pbs-02)"/>
             <exampleCanonical
@@ -1962,6 +2149,7 @@
             <reference>
                 <reference value="MedicationRequest/mds"/>
             </reference>
+            <description value="R4 conversion of MDS test data ExplanationOfBenefit.id 9b28d09f-ba17-11ec-833a-b1763b0a7715"/>
             <name
                 value="R4 conversion of MDS test data ExplanationOfBenefit.id 9b28d09f-ba17-11ec-833a-b1763b0a7715"/>
             <exampleCanonical
@@ -1973,6 +2161,7 @@
             <reference>
                 <reference value="Observation/air-covid-imm-status-01"/>
             </reference>
+            <description value="Australian Immunisation Register COVID-19 Immunisation Status"/>
             <name value="Australian Immunisation Register COVID-19 Immunisation Status"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -1982,6 +2171,7 @@
             <reference>
                 <reference value="Observation/bodyheight-01"/>
             </reference>
+            <description value="Length of Mr. Oliver Smith recorded by Mother at 6 months"/>
             <name value="Length of Mr. Oliver Smith recorded by Mother at 6 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -1991,6 +2181,7 @@
             <reference>
                 <reference value="Observation/bodyheight-02"/>
             </reference>
+            <description value="Length of Mr. Oliver Smith recorded by Mother at 10 months"/>
             <name value="Length of Mr. Oliver Smith recorded by Mother at 10 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2000,6 +2191,7 @@
             <reference>
                 <reference value="Observation/bodyheight-03"/>
             </reference>
+            <description value="Length of Mr. Oliver Smith recorded by GP at 6 months"/>
             <name value="Length of Mr. Oliver Smith recorded by GP at 6 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2009,6 +2201,7 @@
             <reference>
                 <reference value="Observation/bodyheight-04"/>
             </reference>
+            <description value="Length of Mr. Oliver Smith recorded by GP at 10 months"/>
             <name value="Length of Mr. Oliver Smith recorded by GP at 10 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2018,6 +2211,7 @@
             <reference>
                 <reference value="Observation/bodyweight-01"/>
             </reference>
+            <description value="Weight of Mr. Oliver Smith recorded by Mother at 6 months"/>
             <name value="Weight of Mr. Oliver Smith recorded by Mother at 6 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2027,6 +2221,7 @@
             <reference>
                 <reference value="Observation/bodyweight-02"/>
             </reference>
+            <description value="Weight of Mr. Oliver Smith recorded by Mother at 10 months"/>
             <name value="Weight of Mr. Oliver Smith recorded by Mother at 10 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2036,6 +2231,7 @@
             <reference>
                 <reference value="Observation/bodyweight-03"/>
             </reference>
+            <description value="Weight of Mr. Oliver Smith recorded by GP at 6 months"/>
             <name value="Weight of Mr. Oliver Smith recorded by GP at 6 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2045,6 +2241,7 @@
             <reference>
                 <reference value="Observation/bodyweight-04"/>
             </reference>
+            <description value="Weight of Mr. Oliver Smith recorded by GP at 10 months"/>
             <name value="Weight of Mr. Oliver Smith recorded by GP at 10 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2054,6 +2251,7 @@
             <reference>
                 <reference value="Observation/headcircum-01"/>
             </reference>
+            <description value="Head Circumference of Mr. Oliver Smith recorded by Mother at 6 months"/>
             <name value="Head Circumference of Mr. Oliver Smith recorded by Mother at 6 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2063,6 +2261,7 @@
             <reference>
                 <reference value="Observation/headcircum-02"/>
             </reference>
+            <description value="Head Circumference of Mr. Oliver Smith recorded by GP at 6 months"/>
             <name value="Head Circumference of Mr. Oliver Smith recorded by GP at 6 months"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
@@ -2072,7 +2271,28 @@
             <reference>
                 <reference value="Observation/urineculture-es-02"/>
             </reference>
+            <description value="Urine culture - E. coli for Mr Zhang Wei - follow up encounter (2020)"/>
             <name value="Urine culture - E. coli for Mr Zhang Wei - follow up encounter (2020)"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/no-current-meds-01"/>
+            </reference>
+            <description value="No Current Medications example 1"/>
+            <name value="No Current Medications example 1"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/no-med-hist-01"/>
+            </reference>
+            <description value="No Medications History"/>
+            <name value="No Medications History"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-core-1"
             />
@@ -2091,6 +2311,7 @@
             <reference>
                 <reference value="Organization/algrester-medical-centre"/>
             </reference>
+            <description value="Algregster Medical Centre"/>
             <name value="Algregster Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2100,6 +2321,7 @@
             <reference>
                 <reference value="Organization/avg-canberra-medical-centre"/>
             </reference>
+            <description value="Average Canberra Medical Centre"/>
             <name value="Average Canberra Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2109,6 +2331,7 @@
             <reference>
                 <reference value="Organization/bondi-gp-medical-centre"/>
             </reference>
+            <description value="Bondi GP Medical Centre NSW"/>
             <name value="Bondi GP Medical Centre NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2127,6 +2350,7 @@
             <reference>
                 <reference value="Organization/hi-testdata-dental"/>
             </reference>
+            <description value="Test Org -DigitalHealth 5 (Vendor Environment HI Test Data plus email)"/>
             <name value="Test Org -DigitalHealth 5 (Vendor Environment HI Test Data plus email)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2136,6 +2360,7 @@
             <reference>
                 <reference value="Organization/hi-testdata-general-health-admin"/>
             </reference>
+            <description value="Test Org -DigitalHealth 2 (Vendor Environment HI Test Data plus alias)"/>
             <name value="Test Org -DigitalHealth 2 (Vendor Environment HI Test Data plus alias)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2145,6 +2370,7 @@
             <reference>
                 <reference value="Organization/hi-testdata-optical"/>
             </reference>
+            <description value="Test Org -DigitalHealth 4 (Vendor Environment HI Test Data plus aliases)"/>
             <name value="Test Org -DigitalHealth 4 (Vendor Environment HI Test Data plus aliases)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2154,6 +2380,7 @@
             <reference>
                 <reference value="Organization/hi-testdata-pharmacy"/>
             </reference>
+            <description value="Test Org -DigitalHealth 6 (Vendor Environment HI Test Data)"/>
             <name value="Test Org -DigitalHealth 6 (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2163,6 +2390,7 @@
             <reference>
                 <reference value="Organization/hi-testdata-physiotherapy"/>
             </reference>
+            <description value="Test Org -DigitalHealth 3 (Vendor Environment HI Test Data plus email)"/>
             <name value="Test Org -DigitalHealth 3 (Vendor Environment HI Test Data plus email)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2172,6 +2400,7 @@
             <reference>
                 <reference value="Organization/hi-testdata-racs"/>
             </reference>
+            <description value="Test Org -DigitalHealth 1 (Vendor Environment HI Test Data plus email)"/>
             <name value="Test Org -DigitalHealth 1 (Vendor Environment HI Test Data plus email)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2181,6 +2410,7 @@
             <reference>
                 <reference value="Organization/large-allied-chemists"/>
             </reference>
+            <description value="Large Allied Chemists Limited"/>
             <name value="Large Allied Chemists Limited"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2190,6 +2420,7 @@
             <reference>
                 <reference value="Organization/large-racs"/>
             </reference>
+            <description value="Large Residential Aged Care Services Group Limited"/>
             <name value="Large Residential Aged Care Services Group Limited"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2199,6 +2430,7 @@
             <reference>
                 <reference value="Organization/medium-vic-medical-clinic"/>
             </reference>
+            <description value="NSW Hospital (ABN, HPI-O, SNOMED CT + V3 type, Phone, Website, Address)"/>
             <name value="NSW Hospital (ABN, HPI-O, SNOMED CT + V3 type, Phone, Website, Address)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2208,6 +2440,7 @@
             <reference>
                 <reference value="Organization/medicare-rs-operator"/>
             </reference>
+            <description value="Medicare Australia repository services operator"/>
             <name value="Medicare Australia repository services operator"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2217,6 +2450,7 @@
             <reference>
                 <reference value="Organization/metro-cancer-centre-group"/>
             </reference>
+            <description value="Metropolitan Cancer Centre Group"/>
             <name value="Metropolitan Cancer Centre Group"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2226,6 +2460,7 @@
             <reference>
                 <reference value="Organization/metro-nsw-path-lab"/>
             </reference>
+            <description value="Metropolitan Laboratories Sydney"/>
             <name value="Metropolitan Laboratories Sydney"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2235,6 +2470,7 @@
             <reference>
                 <reference value="Organization/metro-qld-path-lab"/>
             </reference>
+            <description value="Metropolitan Pathology QLD"/>
             <name value="Metropolitan Pathology QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2244,6 +2480,7 @@
             <reference>
                 <reference value="Organization/metro-specialist-services-group"/>
             </reference>
+            <description value="Metropolitan Specialist Services Group"/>
             <name value="Metropolitan Specialist Services Group"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2262,6 +2499,7 @@
             <reference>
                 <reference value="Organization/nsw-hospital"/>
             </reference>
+            <description value="NSW Hospital (ABN, HPI-O, SNOMED CT + V3 type, Phone, Website, Address)"/>
             <name value="NSW Hospital (ABN, HPI-O, SNOMED CT + V3 type, Phone, Website, Address)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2271,6 +2509,7 @@
             <reference>
                 <reference value="Organization/ophthalmology-clinic"/>
             </reference>
+            <description value="Metropolitan Eye Test Clinic"/>
             <name value="Metropolitan Eye Test Clinic"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2280,6 +2519,7 @@
             <reference>
                 <reference value="Organization/qld-hospital"/>
             </reference>
+            <description value="QLD Hospital (ABN, HPI-O, SNOMED CT + V3 type, alias, Phone, Address)"/>
             <name value="QLD Hospital (ABN, HPI-O, SNOMED CT + V3 type, alias, Phone, Address)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2289,6 +2529,7 @@
             <reference>
                 <reference value="Organization/servicesau"/>
             </reference>
+            <description value="Services Australia"/>
             <name value="Services Australia"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2298,6 +2539,7 @@
             <reference>
                 <reference value="Organization/tas-family-clinic"/>
             </reference>
+            <description value="Tasmanian Family Medicine Clinic"/>
             <name value="Tasmanian Family Medicine Clinic"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2307,7 +2549,38 @@
             <reference>
                 <reference value="Organization/territory-medical-centre"/>
             </reference>
+            <description value="Territory Medical Centre"/>
             <name value="Territory Medical Centre"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/territory-medical-centre-0810"/>
+            </reference>
+            <description value="Territory Medical Centre 0810"/>
+            <name value="Territory Medical Centre 0810"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/med-regional-med-centre"/>
+            </reference>
+            <description value="Medical Regional Medical Centre"/>
+            <name value="Medical Regional Medical Centre"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/small-med-centre"/>
+            </reference>
+            <description value="Small Medical Centre"/>
+            <name value="Small Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
             />
@@ -2316,6 +2589,7 @@
             <reference>
                 <reference value="Organization/topend-medical-clinic"/>
             </reference>
+            <description value="Top End Medical Clinic"/>
             <name value="Top End Medical Clinic"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-organization-core-1"
@@ -2326,6 +2600,7 @@
             <reference>
                 <reference value="Patient/hi-testdata-frazier-brady"/>
             </reference>
+            <description value="Brady FRAZIER (Vendor Environment HI Test Data plus date accuracy indicator)"/>
             <name
                 value="Brady FRAZIER (Vendor Environment HI Test Data plus date accuracy indicator)"/>
             <exampleCanonical
@@ -2336,6 +2611,7 @@
             <reference>
                 <reference value="Patient/hi-testdata-gainey-bert"/>
             </reference>
+            <description value="Bert Gainey (Vendor Environment HI Test Data)"/>
             <name value="Bert Gainey (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2345,6 +2621,7 @@
             <reference>
                 <reference value="Patient/hi-testdata-goodwin-bonny"/>
             </reference>
+            <description value="Mrs. Bonny Goodwin (Vendor Environment HI Test Data plus marital status)"/>
             <name value="Mrs. Bonny Goodwin (Vendor Environment HI Test Data plus marital status)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2354,6 +2631,7 @@
             <reference>
                 <reference value="Patient/hi-testdata-matterson-lenny"/>
             </reference>
+            <description value="Mr Lenny Matterson (Vendor Environment HI Test Data plus indigenous status, telecom, language)"/>
             <name
                 value="Mr Lenny Matterson (Vendor Environment HI Test Data plus indigenous status, telecom, language)"/>
             <exampleCanonical
@@ -2364,6 +2642,7 @@
             <reference>
                 <reference value="Patient/hi-testdata-moss-cleo"/>
             </reference>
+            <description value="Cleo Moss Esq. (Vendor Environment HI Test Data plus telecom and living in TAS)"/>
             <name
                 value="Cleo Moss Esq. (Vendor Environment HI Test Data plus telecom and living in TAS)"/>
             <exampleCanonical
@@ -2374,6 +2653,7 @@
             <reference>
                 <reference value="Patient/hi-testdata-priest-mac"/>
             </reference>
+            <description value="Mac Priest (Vendor Environment HI Test)"/>
             <name value="Mac Priest (Vendor Environment HI Test)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2383,6 +2663,7 @@
             <reference>
                 <reference value="Patient/mhr-zhang-wei"/>
             </reference>
+            <description value="Mr Zhang Wei (My Health Record Patient)"/>
             <name value="Mr Zhang Wei (My Health Record Patient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2392,6 +2673,7 @@
             <reference>
                 <reference value="Patient/p2p-zhang-wei"/>
             </reference>
+            <description value="Mr Zhang Wei (P2P)"/>
             <name value="Mr Zhang Wei (P2P)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2401,6 +2683,7 @@
             <reference>
                 <reference value="Patient/mhr-anne-thompson"/>
             </reference>
+            <description value="Mrs. Anne Thompson (My Health Record Patient)"/>
             <name value="Mrs. Anne Thompson (My Health Record Patient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2410,6 +2693,7 @@
             <reference>
                 <reference value="Patient/mhr-craig-daniel"/>
             </reference>
+            <description value="Mr. Daniel CRAIG (My Health Record Patient)"/>
             <name value="Mr. Daniel CRAIG (My Health Record Patient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2419,6 +2703,7 @@
             <reference>
                 <reference value="Patient/mhr-jones-olivia"/>
             </reference>
+            <description value="Mr. Daniel CRAIG (My Health Record Patient)"/>
             <name value="Mr. Daniel CRAIG (My Health Record Patient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2428,6 +2713,7 @@
             <reference>
                 <reference value="Patient/mhr-field-sally"/>
             </reference>
+            <description value="Ms. Sally FIELD (My Health Record Patient)"/>
             <name value="Ms. Sally FIELD (My Health Record Patient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2437,6 +2723,7 @@
             <reference>
                 <reference value="Patient/mhr-smith-oliver"/>
             </reference>
+            <description value="Mr. Oliver SMITH (My Health Record Patient) (Child)"/>
             <name value="Mr. Oliver SMITH (My Health Record Patient) (Child)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2446,6 +2733,7 @@
             <reference>
                 <reference value="Patient/mhr-tjakamarra-billy"/>
             </reference>
+            <description value="Billy Tjakamarra (My Health Record Patient)"/>
             <name value="Billy Tjakamarra (My Health Record Patient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2455,6 +2743,7 @@
             <reference>
                 <reference value="Patient/mhr-smith-rosalia"/>
             </reference>
+            <description value="Rosalia SMITH (My Health Record Patient)"/>
             <name value="Rosalia SMITH (My Health Record Patient)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2464,6 +2753,7 @@
             <reference>
                 <reference value="Patient/p2p-anne-thompson"/>
             </reference>
+            <description value="Mrs. Anne Thompson (P2P)"/>
             <name value="Mrs. Anne Thompson (P2P)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-patient-core-1"
@@ -2474,6 +2764,7 @@
             <reference>
                 <reference value="Practitioner/algrester-greg"/>
             </reference>
+            <description value="Dr. Greg Algrester"/>
             <name value="Dr. Greg Algrester"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2483,6 +2774,7 @@
             <reference>
                 <reference value="Practitioner/brown-robert"/>
             </reference>
+            <description value="Dr. Robert Brown"/>
             <name value="Dr. Robert Brown"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2493,6 +2785,7 @@
             <reference>
                 <reference value="Practitioner/sarah-bondiali"/>
             </reference>
+            <description value="Dr. Represetative Practitioner example 1"/>
             <name value="Dr. Represetative Practitioner"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2502,6 +2795,7 @@
             <reference>
                 <reference value="Practitioner/rep-prac-gp"/>
             </reference>
+            <description value="Dr. Represetative Practitioner example 2"/>
             <name value="Dr. Represetative Practitioner"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2511,7 +2805,18 @@
             <reference>
                 <reference value="Practitioner/chong-michelle"/>
             </reference>
+            <description value="Dr. Michelle Chong"/>
             <name value="Dr. Michelle Chong"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Practitioner/helpman-barry"/>
+            </reference>
+            <description value="Dr. Helpman Barry"/>
+            <name value="Dr. Helpman Barry"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
             />
@@ -2520,6 +2825,7 @@
             <reference>
                 <reference value="Practitioner/meyer-adam"/>
             </reference>
+            <description value="Dr. Adam Meyer"/>
             <name value="Dr. Adam Meyer"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2529,6 +2835,7 @@
             <reference>
                 <reference value="Practitioner/sallow-elenore"/>
             </reference>
+            <description value="Dr. Elenore Sallow"/>
             <name value="Dr. Elenore Sallow"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2538,6 +2845,7 @@
             <reference>
                 <reference value="Practitioner/tulio-patricia"/>
             </reference>
+            <description value="Dr. Patricia Tulio"/>
             <name value="Dr. Patricia Tulio"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2547,6 +2855,7 @@
             <reference>
                 <reference value="Practitioner/hi-testdata-barton-russ"/>
             </reference>
+            <description value="Russ BARTON (Vendor Environment HI Test Data)"/>
             <name value="Russ BARTON (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2556,6 +2865,7 @@
             <reference>
                 <reference value="Practitioner/hi-testdata-guthridge-theodore"/>
             </reference>
+            <description value="Theodore GUTHRIDGE (Vendor Environment HI Test Data)"/>
             <name value="Theodore GUTHRIDGE (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2565,6 +2875,7 @@
             <reference>
                 <reference value="Practitioner/hi-testdata-keaton-gertie"/>
             </reference>
+            <description value="Gertie KEATON (Vendor Environment HI Test Data plus language spoken)"/>
             <name value="Gertie KEATON (Vendor Environment HI Test Data plus language spoken)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2574,6 +2885,7 @@
             <reference>
                 <reference value="Practitioner/hi-testdata-kirkland-phoebe"/>
             </reference>
+            <description value="Phoebe KIRKLAND (Vendor Environment HI Test Data plus language spoken)"/>
             <name value="Phoebe KIRKLAND (Vendor Environment HI Test Data plus language spoken)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2583,6 +2895,7 @@
             <reference>
                 <reference value="Practitioner/hi-testdata-sinclair-zane"/>
             </reference>
+            <description value="Mr. Zane Sinclair (Vendor Environment HI Test Data plus email)"/>
             <name value="Mr. Zane Sinclair (Vendor Environment HI Test Data plus email)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2592,6 +2905,7 @@
             <reference>
                 <reference value="Practitioner/pharmacist-representative"/>
             </reference>
+            <description value="Mr. Representative Pharmacist"/>
             <name value="Mr. Representative Pharmacist"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2601,6 +2915,7 @@
             <reference>
                 <reference value="Practitioner/strempel-sonia"/>
             </reference>
+            <description value="Dr Sonia Strempel"/>
             <name value="Dr Sonia Strempel"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitioner-core-1"
@@ -2610,6 +2925,7 @@
             <reference>
                 <reference value="Practitioner/mmds"/>
             </reference>
+            <description value="R4 conversion of MDS test data ExplanationOfBenefit.id d46a4133-ba17-11ec-833a-b1763b0a7715"/>
             <name
                 value="R4 conversion of MDS test data ExplanationOfBenefit.id d46a4133-ba17-11ec-833a-b1763b0a7715"/>
             <exampleCanonical
@@ -2621,6 +2937,7 @@
             <reference>
                 <reference value="PractitionerRole/mds"/>
             </reference>
+            <description value="R4 conversion of MDS test data ExplanationOfBenefit.id d46a4133-ba17-11ec-833a-b1763b0a7715"/>
             <name
                 value="R4 conversion of MDS test data ExplanationOfBenefit.id d46a4133-ba17-11ec-833a-b1763b0a7715"/>
             <exampleCanonical
@@ -2631,6 +2948,7 @@
             <reference>
                 <reference value="PractitionerRole/algrester-greg-gp"/>
             </reference>
+            <description value="Dr. Greg Algrester, GP, at Algregster Medical Centre"/>
             <name value="Dr. Greg Algrester, GP, at Algregster Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2640,6 +2958,7 @@
             <reference>
                 <reference value="PractitionerRole/brown-robert-haematologist"/>
             </reference>
+            <description value="Dr. Robert Brown, Haematologist, Metropolitan Laboratories Sydney"/>
             <name value="Dr. Robert Brown, Haematologist, Metropolitan Laboratories Sydney"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2649,6 +2968,7 @@
             <reference>
                 <reference value="PractitionerRole/canberra-gp"/>
             </reference>
+            <description value="Dr. Represetative Practitioner, GP, at Average Canberra Medical Centre"/>
             <name value="Dr. Represetative Practitioner, GP, at Average Canberra Medical Centre"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2658,6 +2978,7 @@
             <reference>
                 <reference value="PractitionerRole/george-david-oncologist"/>
             </reference>
+            <description value="Dr. George David, Oncologist, at Fred Hope Centre NSW"/>
             <name value="Dr. George David, Oncologist, at Fred Hope Centre NSW"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2667,6 +2988,7 @@
             <reference>
                 <reference value="PractitionerRole/hi-testdata-dental-therapist"/>
             </reference>
+            <description value="Dental Therapist (Vendor Environment HI Test Data)"/>
             <name value="Dental Therapist (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2676,6 +2998,7 @@
             <reference>
                 <reference value="PractitionerRole/hi-testdata-dietician"/>
             </reference>
+            <description value="Dietitian (Vendor Environment HI Test Data)"/>
             <name value="Dietitian (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2685,6 +3008,7 @@
             <reference>
                 <reference value="PractitionerRole/hi-testdata-diversional-therapist"/>
             </reference>
+            <description value="Russ BARTON, Diversional Therapist (Vendor Environment HI Test Data)"/>
             <name value="Russ BARTON, Diversional Therapist (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2694,6 +3018,7 @@
             <reference>
                 <reference value="PractitionerRole/hi-testdata-drug-alcohol-counsellor"/>
             </reference>
+            <description value="Mr. Zane Sinclair (Vendor Environment HI Test Data)"/>
             <name value="Mr. Zane Sinclair (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2703,6 +3028,7 @@
             <reference>
                 <reference value="PractitionerRole/hi-testdata-dentist"/>
             </reference>
+            <description value="Gertie KEATON, Dentist (Vendor Environment HI Test Data)"/>
             <name value="Gertie KEATON, Dentist (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2712,6 +3038,7 @@
             <reference>
                 <reference value="PractitionerRole/hi-testdata-mothercraft-nurse"/>
             </reference>
+            <description value="Theodore GUTHRIDGE, Mothercraft Nurse (Vendor Environment HI Test Data)"/>
             <name value="Theodore GUTHRIDGE, Mothercraft Nurse (Vendor Environment HI Test Data)"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2721,6 +3048,7 @@
             <reference>
                 <reference value="PractitionerRole/meyer-adam-microbiologist"/>
             </reference>
+            <description value="Dr. Adam Meyer, Microbiologist, at Metropolitan Pathology QLD"/>
             <name value="Dr. Adam Meyer, Microbiologist, at Metropolitan Pathology QLD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2730,6 +3058,7 @@
             <reference>
                 <reference value="PractitionerRole/chong-michelle-oncologist"/>
             </reference>
+            <description value="Dr. Michelle Chong, Oncologist, at Metropolitan Cancer Centre Group"/>
             <name value="Dr. Michelle Chong, Oncologist, at Metropolitan Cancer Centre Group"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2739,6 +3068,7 @@
             <reference>
                 <reference value="PractitionerRole/nsw-gp"/>
             </reference>
+            <description value="Dr Sarah Bondiali, GP, at Bondi GP Medical Center example 1"/>
             <name value="Dr Sarah Bondiali, GP, at Bondi GP Medical Center"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2748,6 +3078,7 @@
             <reference>
                 <reference value="PractitionerRole/nsw-gp-core"/>
             </reference>
+            <description value="Dr Sarah Bondiali, GP, at Bondi GP Medical Center example 2"/>
             <name value="Dr Sarah Bondiali, GP, at Bondi GP Medical Center"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-core-1"
@@ -2757,6 +3088,7 @@
             <reference>
                 <reference value="PractitionerRole/pharmacist-retail"/>
             </reference>
+            <description value="Mr. Representative Pharmacist, Pharmacist, at Test Org -DigitalHealth 6"/>
             <name value="Mr. Representative Pharmacist, Pharmacist, at Test Org -DigitalHealth 6"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2766,6 +3098,7 @@
             <reference>
                 <reference value="PractitionerRole/strempel-sonia-gp"/>
             </reference>
+            <description value="Dr Sonia Strempel, General practitioner registrar, at Top End Medical Clinic"/>
             <name
                 value="Dr Sonia Strempel, General practitioner registrar, at Top End Medical Clinic"/>
             <exampleCanonical
@@ -2776,6 +3109,7 @@
             <reference>
                 <reference value="PractitionerRole/tulio-patricia-pathologist"/>
             </reference>
+            <description value="Dr. Patricia Tulio, Pathologist, at Metropolitan Laboratories Sydney"/>
             <name value="Dr. Patricia Tulio, Pathologist, at Metropolitan Laboratories Sydney"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-practitionerrole-author-1"
@@ -2786,6 +3120,7 @@
             <reference>
                 <reference value="Procedure/wound-dressing-es-01"/>
             </reference>
+            <description value="Dressing of wound for Billy Tjakamarra - Nail wound of sole of foot encounter (2017)"/>
             <name
                 value="Dressing of wound for Billy Tjakamarra - Nail wound of sole of foot encounter (2017)"/>
             <exampleCanonical
@@ -2797,6 +3132,7 @@
             <reference>
                 <reference value="RelatedPerson/mhr-field-sally"/>
             </reference>
+            <description value="Ms. Sally FIELD - mother of Mr. Oliver SMITH"/>
             <name value="Ms. Sally FIELD - mother of Mr. Oliver SMITH"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-author-1"
@@ -2806,6 +3142,7 @@
             <reference>
                 <reference value="RelatedPerson/mhr-smith-oliver"/>
             </reference>
+            <description value="Mr. Oliver SMITH - child of Ms. Sally FIELD"/>
             <name value="Mr. Oliver SMITH - child of Ms. Sally FIELD"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-core-1"
@@ -2815,6 +3152,7 @@
             <reference>
                 <reference value="RelatedPerson/mhr-smith-bob-oliver"/>
             </reference>
+            <description value="Mr. Bob SMITH - father of Mr. Oliver SMITH"/>
             <name value="Mr. Bob SMITH - father of Mr. Oliver SMITH"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-core-1"
@@ -2824,7 +3162,18 @@
             <reference>
                 <reference value="RelatedPerson/mhr-smith-rosalia-oliver"/>
             </reference>
+            <description value="Mrs. Rosalia SMITH - stepmother of Mr. Oliver SMITH"/>
             <name value="Mrs. Rosalia SMITH - stepmother of Mr. Oliver SMITH"/>
+            <exampleCanonical
+                value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-core-1"
+            />
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RelatedPerson/mhr-smith-bob-trevor"/>
+            </reference>
+            <description value="Mr. Smith Bob Trevor"/>
+            <name value="Mr. Smith Bob Trevor"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-relatedperson-core-1"
             />
@@ -2833,6 +3182,7 @@
             <reference>
                 <reference value="Specimen/urine-01"/>
             </reference>
+            <description value="Urine specimen for Mr Zhang Wei - follow up encounter (2020)"/>
             <name value="Urine specimen for Mr Zhang Wei - follow up encounter (2020)"/>
             <exampleCanonical value="http://hl7.org/fhir/StructureDefinition/Specimen"/>
         </resource>
@@ -2841,6 +3191,7 @@
             <reference>
                 <reference value="OperationOutcome/vpr-04"/>
             </reference>
+           <description value="Operation Outcome example for Patient not registered for MyMedicare"/>
             <name value="Patient not registered for MyMedicare"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-operationoutcome-core-1"
@@ -2850,6 +3201,7 @@
             <reference>
                 <reference value="OperationOutcome/vpr-05"/>
             </reference>
+            <description value="Operation Outcome example for MyMedicare functional error"/>
             <name value="MyMedicare functional error"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-operationoutcome-core-1"
@@ -2858,7 +3210,8 @@
         <resource>
             <reference>
                 <reference value="OperationOutcome/vpr-06"/>
-            </reference>
+            </reference>            
+            <description value="Operation Outcome example for Technical error"/>
             <name value="Technical error"/>
             <exampleCanonical
                 value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-operationoutcome-core-1"
@@ -2891,6 +3244,14 @@
             </reference>
             <name value="Medical Conditions View bundle"/>
             <description value="An example of a bundle containing the Medical Conditions View"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Bundle/vpr-03"/>
+            </reference>
+            <name value="Bundle for VPR"/>
+            <description value="Bundle for VPR"/>
             <exampleBoolean value="true"/>
         </resource>
         <!--COMPOSITION EXAMPLES-->
@@ -3106,6 +3467,11 @@
             <page>
                 <nameUrl value="changes.html"/>
                 <title value="Change Log"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="actor-definitions.html"/>
+                <title value="Actor Definitions"/>
                 <generation value="markdown"/>
             </page>
         </page>

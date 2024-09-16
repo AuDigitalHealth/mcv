@@ -1,13 +1,5 @@
 == Suppressed Messages ==
 
-Attempt to use Terminology server when no Terminology server is available
-
-A Reference without an actual reference or identifier should have a display
-
-This element does not match any known slice defined in the profile http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-observation-diagnosticresult-path-1
-This element does not match any known slice defined in the profile http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-bundle-document-1
-This element does not match any known slice defined in the profile http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-servicerequest-modi-1
-
 # The following code systems are external and not supported by terminology server
 Code System URI 'https://healthterminologies.gov.au/fhir/CodeSystem/anzsco-designation-type-1' is unknown so the code cannot be validated
 
@@ -261,3 +253,12 @@ The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/medicine
 The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/encounter-type-1 on element Encounter.type could not be resolved
 The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/service-type-1 on element Encounter.serviceType could not be resolved
 The valueSet reference https://healthterminologies.gov.au/fhir/ValueSet/history-of-medication-use-list-type-1 on element Composition.section.code could not be resolved
+
+
+# ================================================================================
+# ===  ERRORS ===
+# ===========================================================-=====================
+
+# ===  These errors are pending an update to the IG publisher for resolution; currently, there is no timeline for their correction. They are related by R4 and R5 value sets having different values, but using an R4 values returns the same error. See https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/QA.20error.20with.20ActorDefinition.20in.20R4.20IG ====
+ERROR: ActorDefinition/mhr-gw-actor-requester: ActorDefinition.type: The value provided ('system') was not found in the value set 'Example Scenario Actor Type' (http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'system' in the ValueSet 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0'; The provided code '#system' was not found in the value set 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0')
+ERROR: ActorDefinition/mhr-gw-actor-responder: ActorDefinition.type: The value provided ('system') was not found in the value set 'Example Scenario Actor Type' (http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'system' in the ValueSet 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0'; The provided code '#system' was not found in the value set 'http://hl7.org/fhir/ValueSet/examplescenario-actor-type|5.0.0')

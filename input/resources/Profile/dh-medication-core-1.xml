@@ -89,7 +89,7 @@
         <severity value="error"/>
         <human value="If present, an item reference shall at least have a reference or a display"/>
         <expression
-          value="itemReference.exists() implies itemReference.all($this.reference.exists() or $this.display.exists())"/>
+          value="(item as Reference).exists() implies (item as Reference).all($this.reference.exists() or $this.display.exists())"/>
         <source
           value="http://ns.electronichealth.net.au/fhir/StructureDefinition/dh-medication-core-1"/>
       </constraint>

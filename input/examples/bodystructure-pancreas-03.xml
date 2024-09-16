@@ -7,7 +7,7 @@
     <location>
         <coding>
             <system value="http://snomed.info/sct"/>
-            <code value="15776009"/>
+            <code value="15776009"/>            
             <display value="Pancreas"/>
         </coding>
     </location>

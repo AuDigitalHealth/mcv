@@ -43,8 +43,8 @@
         <code>
             <coding>
                 <system value="http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0"/>
-                <code value="253111"/>
-                <display value="General Medical Practitioner"/>
+                <code value="253511"/>
+                <display value="Surgeon (General)"/>
             </coding>
             <text value="AHPRA qualification for General Practitioner"/>
         </code>

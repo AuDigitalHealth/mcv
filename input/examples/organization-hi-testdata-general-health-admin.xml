@@ -19,9 +19,9 @@
     </identifier>
     <type>
         <coding>
-            <system value="http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0"/>
-            <code value="7561"/>
-            <display value="General Health Administration"/>
+            <system value="http://www.abs.gov.au/ausstats/abs@.nsf/mf/1220.0"/>
+            <code value="253511"/>
+            <display value="Surgeon (General)"/>
         </coding>
     </type>
     <name value="Test Org -DigitalHealth 2"/>

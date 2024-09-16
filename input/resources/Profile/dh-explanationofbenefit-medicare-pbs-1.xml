@@ -185,12 +185,11 @@
       <short value="PBS Billing code"/>
       <definition value="The billing code the service was claimed with against the Australian Department of Health Modified PBS Schedule Item."/>
       <comment value="The code as instantiated may be padded with leading zeros when compared with the original (as published by the Department of Health)."/>
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://pbs.gov.au/code/item"/>
-        </coding>
-      </patternCodeableConcept>
       <mustSupport value="true"/>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://terminology.hl7.org.au/ValueSet/pbs-item"/>
+      </binding>
     </element>
     <element id="ExplanationOfBenefit.item.serviced[x]">
       <path value="ExplanationOfBenefit.item.serviced[x]"/>
